@@ -23,7 +23,9 @@ class ViewController: UIViewController {
     struct ProjectListModel {
         let data = Observable.just([
             Project(title:"Observable介绍、创建可观察序列"),
-            Project(title:"Observable订阅、事件监听、订阅销毁")
+            Project(title:"Observable订阅、事件监听、订阅销毁"),
+            Project(title:"观察者1： AnyObserver、Binder"),
+            Project(title:"观察者2： 自定义可绑定属性"),
         ])
     }
     
@@ -56,6 +58,10 @@ class ViewController: UIViewController {
                 self.navigationController?.pushViewController(ObservableIntroduceCreateViewController(), animated: true)
             }else if indexPath.row == 1 {
                 self.navigationController?.pushViewController(ObservableSubscribeDoonDisposeViewController(), animated: true)
+            }else if indexPath.row == 2 {
+                self.navigationController?.pushViewController(AnyObserverBinderViewController(), animated: true)
+            }else if indexPath.row == 3 {
+                self.navigationController?.pushViewController(CustomBindablePropertyViewController(), animated: true)
             }
         }).disposed(by: disposeBag)
     }

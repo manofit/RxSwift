@@ -15,6 +15,8 @@
 		E138BA4520C8CE1D00879E28 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E138BA4320C8CE1D00879E28 /* LaunchScreen.storyboard */; };
 		E138BA4F20C8ED6300879E28 /* ObservableIntroduceCreateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E138BA4E20C8ED6300879E28 /* ObservableIntroduceCreateViewController.swift */; };
 		E138BA5220C8F99100879E28 /* ObservableSubscribeDoonDisposeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E138BA5120C8F99100879E28 /* ObservableSubscribeDoonDisposeViewController.swift */; };
+		E138BA5520C900BB00879E28 /* AnyObserverBinderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E138BA5420C900BB00879E28 /* AnyObserverBinderViewController.swift */; };
+		E138BA5820C922ED00879E28 /* CustomBindablePropertyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E138BA5720C922ED00879E28 /* CustomBindablePropertyViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		E138BA4620C8CE1D00879E28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E138BA4E20C8ED6300879E28 /* ObservableIntroduceCreateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableIntroduceCreateViewController.swift; sourceTree = "<group>"; };
 		E138BA5120C8F99100879E28 /* ObservableSubscribeDoonDisposeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableSubscribeDoonDisposeViewController.swift; sourceTree = "<group>"; };
+		E138BA5420C900BB00879E28 /* AnyObserverBinderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyObserverBinderViewController.swift; sourceTree = "<group>"; };
+		E138BA5720C922ED00879E28 /* CustomBindablePropertyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomBindablePropertyViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +86,8 @@
 		E138BA3920C8CE1D00879E28 /* GJRxSwift */ = {
 			isa = PBXGroup;
 			children = (
+				E138BA5620C922CE00879E28 /* 观察者2： 自定义可绑定属性 */,
+				E138BA5320C900A200879E28 /* 观察者1： AnyObserver、Binder */,
 				E138BA5020C8F96200879E28 /* Observable订阅、事件监听、订阅销毁 */,
 				E138BA4D20C8ED2C00879E28 /* Observable介绍、创建可观察序列 */,
 				E138BA3A20C8CE1D00879E28 /* AppDelegate.swift */,
@@ -108,6 +114,22 @@
 				E138BA5120C8F99100879E28 /* ObservableSubscribeDoonDisposeViewController.swift */,
 			);
 			path = "Observable订阅、事件监听、订阅销毁";
+			sourceTree = "<group>";
+		};
+		E138BA5320C900A200879E28 /* 观察者1： AnyObserver、Binder */ = {
+			isa = PBXGroup;
+			children = (
+				E138BA5420C900BB00879E28 /* AnyObserverBinderViewController.swift */,
+			);
+			path = "观察者1： AnyObserver、Binder";
+			sourceTree = "<group>";
+		};
+		E138BA5620C922CE00879E28 /* 观察者2： 自定义可绑定属性 */ = {
+			isa = PBXGroup;
+			children = (
+				E138BA5720C922ED00879E28 /* CustomBindablePropertyViewController.swift */,
+			);
+			path = "观察者2： 自定义可绑定属性";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -226,9 +248,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				E138BA3D20C8CE1D00879E28 /* ViewController.swift in Sources */,
+				E138BA5520C900BB00879E28 /* AnyObserverBinderViewController.swift in Sources */,
 				E138BA3B20C8CE1D00879E28 /* AppDelegate.swift in Sources */,
 				E138BA5220C8F99100879E28 /* ObservableSubscribeDoonDisposeViewController.swift in Sources */,
 				E138BA4F20C8ED6300879E28 /* ObservableIntroduceCreateViewController.swift in Sources */,
+				E138BA5820C922ED00879E28 /* CustomBindablePropertyViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
