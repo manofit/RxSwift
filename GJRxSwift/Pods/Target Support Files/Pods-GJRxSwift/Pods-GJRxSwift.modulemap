@@ -1,0 +1,6 @@
+framework module Pods_GJRxSwift {
+  umbrella header "Pods-GJRxSwift-umbrella.h"
+
+  export *
+  module * { export * }
+}

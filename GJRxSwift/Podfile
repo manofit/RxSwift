@@ -1,0 +1,12 @@
+project 'GJRxSwift.xcodeproj'
+platform :ios, '9.0'
+use_frameworks!
+
+target 'GJRxSwift' do
+
+    pod 'RxSwift'
+    pod 'RxCocoa'
+    pod 'RxBlocking'
+    pod 'RxTest'
+
+end
