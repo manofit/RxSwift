@@ -6,7 +6,5 @@ target 'GJRxSwift' do
 
     pod 'RxSwift'
     pod 'RxCocoa'
-    pod 'RxBlocking'
-    pod 'RxTest'
 
 end

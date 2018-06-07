@@ -13,6 +13,8 @@
 		E138BA4020C8CE1D00879E28 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E138BA3E20C8CE1D00879E28 /* Main.storyboard */; };
 		E138BA4220C8CE1D00879E28 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E138BA4120C8CE1D00879E28 /* Assets.xcassets */; };
 		E138BA4520C8CE1D00879E28 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E138BA4320C8CE1D00879E28 /* LaunchScreen.storyboard */; };
+		E138BA4F20C8ED6300879E28 /* ObservableIntroduceCreateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E138BA4E20C8ED6300879E28 /* ObservableIntroduceCreateViewController.swift */; };
+		E138BA5220C8F99100879E28 /* ObservableSubscribeDoonDisposeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E138BA5120C8F99100879E28 /* ObservableSubscribeDoonDisposeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		E138BA4120C8CE1D00879E28 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E138BA4420C8CE1D00879E28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E138BA4620C8CE1D00879E28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E138BA4E20C8ED6300879E28 /* ObservableIntroduceCreateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableIntroduceCreateViewController.swift; sourceTree = "<group>"; };
+		E138BA5120C8F99100879E28 /* ObservableSubscribeDoonDisposeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableSubscribeDoonDisposeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +82,8 @@
 		E138BA3920C8CE1D00879E28 /* GJRxSwift */ = {
 			isa = PBXGroup;
 			children = (
+				E138BA5020C8F96200879E28 /* Observable订阅、事件监听、订阅销毁 */,
+				E138BA4D20C8ED2C00879E28 /* Observable介绍、创建可观察序列 */,
 				E138BA3A20C8CE1D00879E28 /* AppDelegate.swift */,
 				E138BA3C20C8CE1D00879E28 /* ViewController.swift */,
 				E138BA3E20C8CE1D00879E28 /* Main.storyboard */,
@@ -86,6 +92,22 @@
 				E138BA4620C8CE1D00879E28 /* Info.plist */,
 			);
 			path = GJRxSwift;
+			sourceTree = "<group>";
+		};
+		E138BA4D20C8ED2C00879E28 /* Observable介绍、创建可观察序列 */ = {
+			isa = PBXGroup;
+			children = (
+				E138BA4E20C8ED6300879E28 /* ObservableIntroduceCreateViewController.swift */,
+			);
+			path = "Observable介绍、创建可观察序列";
+			sourceTree = "<group>";
+		};
+		E138BA5020C8F96200879E28 /* Observable订阅、事件监听、订阅销毁 */ = {
+			isa = PBXGroup;
+			children = (
+				E138BA5120C8F99100879E28 /* ObservableSubscribeDoonDisposeViewController.swift */,
+			);
+			path = "Observable订阅、事件监听、订阅销毁";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -183,17 +205,13 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-GJRxSwift/Pods-GJRxSwift-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/RxBlocking/RxBlocking.framework",
 				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
 				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
-				"${BUILT_PRODUCTS_DIR}/RxTest/RxTest.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxBlocking.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxTest.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -209,6 +227,8 @@
 			files = (
 				E138BA3D20C8CE1D00879E28 /* ViewController.swift in Sources */,
 				E138BA3B20C8CE1D00879E28 /* AppDelegate.swift in Sources */,
+				E138BA5220C8F99100879E28 /* ObservableSubscribeDoonDisposeViewController.swift in Sources */,
+				E138BA4F20C8ED6300879E28 /* ObservableIntroduceCreateViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
