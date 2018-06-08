@@ -27,6 +27,7 @@ class ViewController: UIViewController {
             Project(title:"观察者1： AnyObserver、Binder"),
             Project(title:"观察者2： 自定义可绑定属性"),
             Project(title:"Subjects、Variables"),
+            Project(title:"变换操作符：buffer、map、flatMap、scan等")
         ])
     }
     
@@ -65,6 +66,8 @@ class ViewController: UIViewController {
                 self.navigationController?.pushViewController(CustomBindablePropertyViewController(), animated: true)
             }else if indexPath.row == 4 {
                 self.navigationController?.pushViewController(SubjectsVariablesViewController(), animated: true)
+            }else if indexPath.row == 5 {
+                self.navigationController?.pushViewController(BufferMapFlatMapScanViewController(), animated: true)
             }
         }).disposed(by: disposeBag)
     }

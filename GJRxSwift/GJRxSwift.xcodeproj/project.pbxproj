@@ -18,6 +18,7 @@
 		E138BA5520C900BB00879E28 /* AnyObserverBinderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E138BA5420C900BB00879E28 /* AnyObserverBinderViewController.swift */; };
 		E138BA5820C922ED00879E28 /* CustomBindablePropertyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E138BA5720C922ED00879E28 /* CustomBindablePropertyViewController.swift */; };
 		E138BA5D20CA1A2F00879E28 /* SubjectsVariablesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E138BA5C20CA1A2F00879E28 /* SubjectsVariablesViewController.swift */; };
+		E138BA6020CA44FD00879E28 /* BufferMapFlatMapScanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E138BA5F20CA44FD00879E28 /* BufferMapFlatMapScanViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		E138BA5420C900BB00879E28 /* AnyObserverBinderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyObserverBinderViewController.swift; sourceTree = "<group>"; };
 		E138BA5720C922ED00879E28 /* CustomBindablePropertyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomBindablePropertyViewController.swift; sourceTree = "<group>"; };
 		E138BA5C20CA1A2F00879E28 /* SubjectsVariablesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubjectsVariablesViewController.swift; sourceTree = "<group>"; };
+		E138BA5F20CA44FD00879E28 /* BufferMapFlatMapScanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BufferMapFlatMapScanViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +90,7 @@
 		E138BA3920C8CE1D00879E28 /* GJRxSwift */ = {
 			isa = PBXGroup;
 			children = (
+				E138BA5E20CA44D600879E28 /* 变换操作符：buffer、map、flatMap、scan等 */,
 				E138BA5B20CA1A1A00879E28 /* Subjects、Variables */,
 				E138BA5620C922CE00879E28 /* 观察者2： 自定义可绑定属性 */,
 				E138BA5320C900A200879E28 /* 观察者1： AnyObserver、Binder */,
@@ -141,6 +144,14 @@
 				E138BA5C20CA1A2F00879E28 /* SubjectsVariablesViewController.swift */,
 			);
 			path = "Subjects、Variables";
+			sourceTree = "<group>";
+		};
+		E138BA5E20CA44D600879E28 /* 变换操作符：buffer、map、flatMap、scan等 */ = {
+			isa = PBXGroup;
+			children = (
+				E138BA5F20CA44FD00879E28 /* BufferMapFlatMapScanViewController.swift */,
+			);
+			path = "变换操作符：buffer、map、flatMap、scan等";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,6 +273,7 @@
 				E138BA3D20C8CE1D00879E28 /* ViewController.swift in Sources */,
 				E138BA5520C900BB00879E28 /* AnyObserverBinderViewController.swift in Sources */,
 				E138BA3B20C8CE1D00879E28 /* AppDelegate.swift in Sources */,
+				E138BA6020CA44FD00879E28 /* BufferMapFlatMapScanViewController.swift in Sources */,
 				E138BA5220C8F99100879E28 /* ObservableSubscribeDoonDisposeViewController.swift in Sources */,
 				E138BA4F20C8ED6300879E28 /* ObservableIntroduceCreateViewController.swift in Sources */,
 				E138BA5820C922ED00879E28 /* CustomBindablePropertyViewController.swift in Sources */,
