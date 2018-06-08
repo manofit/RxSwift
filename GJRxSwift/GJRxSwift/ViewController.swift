@@ -26,6 +26,7 @@ class ViewController: UIViewController {
             Project(title:"Observable订阅、事件监听、订阅销毁"),
             Project(title:"观察者1： AnyObserver、Binder"),
             Project(title:"观察者2： 自定义可绑定属性"),
+            Project(title:"Subjects、Variables"),
         ])
     }
     
@@ -62,6 +63,8 @@ class ViewController: UIViewController {
                 self.navigationController?.pushViewController(AnyObserverBinderViewController(), animated: true)
             }else if indexPath.row == 3 {
                 self.navigationController?.pushViewController(CustomBindablePropertyViewController(), animated: true)
+            }else if indexPath.row == 4 {
+                self.navigationController?.pushViewController(SubjectsVariablesViewController(), animated: true)
             }
         }).disposed(by: disposeBag)
     }

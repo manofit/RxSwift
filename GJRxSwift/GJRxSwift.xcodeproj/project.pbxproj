@@ -17,6 +17,7 @@
 		E138BA5220C8F99100879E28 /* ObservableSubscribeDoonDisposeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E138BA5120C8F99100879E28 /* ObservableSubscribeDoonDisposeViewController.swift */; };
 		E138BA5520C900BB00879E28 /* AnyObserverBinderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E138BA5420C900BB00879E28 /* AnyObserverBinderViewController.swift */; };
 		E138BA5820C922ED00879E28 /* CustomBindablePropertyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E138BA5720C922ED00879E28 /* CustomBindablePropertyViewController.swift */; };
+		E138BA5D20CA1A2F00879E28 /* SubjectsVariablesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E138BA5C20CA1A2F00879E28 /* SubjectsVariablesViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		E138BA5120C8F99100879E28 /* ObservableSubscribeDoonDisposeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableSubscribeDoonDisposeViewController.swift; sourceTree = "<group>"; };
 		E138BA5420C900BB00879E28 /* AnyObserverBinderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyObserverBinderViewController.swift; sourceTree = "<group>"; };
 		E138BA5720C922ED00879E28 /* CustomBindablePropertyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomBindablePropertyViewController.swift; sourceTree = "<group>"; };
+		E138BA5C20CA1A2F00879E28 /* SubjectsVariablesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubjectsVariablesViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 		E138BA3920C8CE1D00879E28 /* GJRxSwift */ = {
 			isa = PBXGroup;
 			children = (
+				E138BA5B20CA1A1A00879E28 /* Subjects、Variables */,
 				E138BA5620C922CE00879E28 /* 观察者2： 自定义可绑定属性 */,
 				E138BA5320C900A200879E28 /* 观察者1： AnyObserver、Binder */,
 				E138BA5020C8F96200879E28 /* Observable订阅、事件监听、订阅销毁 */,
@@ -130,6 +133,14 @@
 				E138BA5720C922ED00879E28 /* CustomBindablePropertyViewController.swift */,
 			);
 			path = "观察者2： 自定义可绑定属性";
+			sourceTree = "<group>";
+		};
+		E138BA5B20CA1A1A00879E28 /* Subjects、Variables */ = {
+			isa = PBXGroup;
+			children = (
+				E138BA5C20CA1A2F00879E28 /* SubjectsVariablesViewController.swift */,
+			);
+			path = "Subjects、Variables";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -247,6 +258,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E138BA5D20CA1A2F00879E28 /* SubjectsVariablesViewController.swift in Sources */,
 				E138BA3D20C8CE1D00879E28 /* ViewController.swift in Sources */,
 				E138BA5520C900BB00879E28 /* AnyObserverBinderViewController.swift in Sources */,
 				E138BA3B20C8CE1D00879E28 /* AppDelegate.swift in Sources */,
