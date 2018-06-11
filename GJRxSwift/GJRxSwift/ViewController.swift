@@ -31,6 +31,7 @@ class ViewController: UIViewController {
             Project(title:"过滤操作符：filter、take、skip等"),
             Project(title:"条件和布尔操作符：amb、takeWhile、skipWhile等"),
             Project(title:"结合操作符：startWith、merge、zip等"),
+            Project(title:"算数&聚合操作符：toArray、reduce、concat"),
         ])
     }
     
@@ -77,6 +78,8 @@ class ViewController: UIViewController {
                 self.navigationController?.pushViewController(AmbTakeWhileSkipWhileViewController(), animated: true)
             }else if indexPath.row == 8 {
                 self.navigationController?.pushViewController(StartWithMergeZipViewController(), animated: true)
+            }else if indexPath.row == 9 {
+                self.navigationController?.pushViewController(ToArrayReduceConcatViewController(), animated: true)
             }
         }).disposed(by: disposeBag)
     }

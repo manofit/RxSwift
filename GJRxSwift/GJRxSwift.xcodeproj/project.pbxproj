@@ -11,6 +11,7 @@
 		E108D30C20CE21B50096E47C /* FilterTakeSkipViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E108D30B20CE21B50096E47C /* FilterTakeSkipViewController.swift */; };
 		E108D30F20CE3E5F0096E47C /* AmbTakeWhileSkipWhileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E108D30E20CE3E5F0096E47C /* AmbTakeWhileSkipWhileViewController.swift */; };
 		E108D31220CE4CA40096E47C /* StartWithMergeZipViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E108D31120CE4CA40096E47C /* StartWithMergeZipViewController.swift */; };
+		E108D31520CE6EE80096E47C /* ToArrayReduceConcatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E108D31420CE6EE80096E47C /* ToArrayReduceConcatViewController.swift */; };
 		E138BA3B20C8CE1D00879E28 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E138BA3A20C8CE1D00879E28 /* AppDelegate.swift */; };
 		E138BA3D20C8CE1D00879E28 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E138BA3C20C8CE1D00879E28 /* ViewController.swift */; };
 		E138BA4020C8CE1D00879E28 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E138BA3E20C8CE1D00879E28 /* Main.storyboard */; };
@@ -31,6 +32,7 @@
 		E108D30B20CE21B50096E47C /* FilterTakeSkipViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterTakeSkipViewController.swift; sourceTree = "<group>"; };
 		E108D30E20CE3E5F0096E47C /* AmbTakeWhileSkipWhileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmbTakeWhileSkipWhileViewController.swift; sourceTree = "<group>"; };
 		E108D31120CE4CA40096E47C /* StartWithMergeZipViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartWithMergeZipViewController.swift; sourceTree = "<group>"; };
+		E108D31420CE6EE80096E47C /* ToArrayReduceConcatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToArrayReduceConcatViewController.swift; sourceTree = "<group>"; };
 		E138BA3720C8CE1D00879E28 /* GJRxSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GJRxSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E138BA3A20C8CE1D00879E28 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E138BA3C20C8CE1D00879E28 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -99,6 +101,14 @@
 			path = "结合操作符：startWith、merge、zip等";
 			sourceTree = "<group>";
 		};
+		E108D31320CE6ED40096E47C /* 算数&聚合操作符：toArray、reduce、concat */ = {
+			isa = PBXGroup;
+			children = (
+				E108D31420CE6EE80096E47C /* ToArrayReduceConcatViewController.swift */,
+			);
+			path = "算数&聚合操作符：toArray、reduce、concat";
+			sourceTree = "<group>";
+		};
 		E138BA2E20C8CE1D00879E28 = {
 			isa = PBXGroup;
 			children = (
@@ -120,6 +130,7 @@
 		E138BA3920C8CE1D00879E28 /* GJRxSwift */ = {
 			isa = PBXGroup;
 			children = (
+				E108D31320CE6ED40096E47C /* 算数&聚合操作符：toArray、reduce、concat */,
 				E108D31020CE4C920096E47C /* 结合操作符：startWith、merge、zip等 */,
 				E108D30D20CE3E4C0096E47C /* 条件和布尔操作符：amb、takeWhile、skipWhile等 */,
 				E108D30A20CE219D0096E47C /* 过滤操作符：filter、take、skip等 */,
@@ -305,6 +316,7 @@
 				E108D31220CE4CA40096E47C /* StartWithMergeZipViewController.swift in Sources */,
 				E138BA5D20CA1A2F00879E28 /* SubjectsVariablesViewController.swift in Sources */,
 				E138BA3D20C8CE1D00879E28 /* ViewController.swift in Sources */,
+				E108D31520CE6EE80096E47C /* ToArrayReduceConcatViewController.swift in Sources */,
 				E138BA5520C900BB00879E28 /* AnyObserverBinderViewController.swift in Sources */,
 				E138BA3B20C8CE1D00879E28 /* AppDelegate.swift in Sources */,
 				E138BA6020CA44FD00879E28 /* BufferMapFlatMapScanViewController.swift in Sources */,
