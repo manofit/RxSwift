@@ -28,7 +28,9 @@ class ViewController: UIViewController {
             Project(title:"观察者2： 自定义可绑定属性"),
             Project(title:"Subjects、Variables"),
             Project(title:"变换操作符：buffer、map、flatMap、scan等"),
-            Project(title:"过滤操作符：filter、take、skip等")
+            Project(title:"过滤操作符：filter、take、skip等"),
+            Project(title:"条件和布尔操作符：amb、takeWhile、skipWhile等"),
+            Project(title:"结合操作符：startWith、merge、zip等"),
         ])
     }
     
@@ -71,6 +73,10 @@ class ViewController: UIViewController {
                 self.navigationController?.pushViewController(BufferMapFlatMapScanViewController(), animated: true)
             }else if indexPath.row == 6 {
                 self.navigationController?.pushViewController(FilterTakeSkipViewController(), animated: true)
+            }else if indexPath.row == 7 {
+                self.navigationController?.pushViewController(AmbTakeWhileSkipWhileViewController(), animated: true)
+            }else if indexPath.row == 8 {
+                self.navigationController?.pushViewController(StartWithMergeZipViewController(), animated: true)
             }
         }).disposed(by: disposeBag)
     }
