@@ -101,7 +101,7 @@ class SubjectsVariablesViewController: UIViewController {
         
         //Variable
         //对BehaviorSubject的封装，所以需要一个初始值进行创建。具有BehaviorSubject的功能，能向订阅者发出上一个event和之后的event。不同的是，Variable会把当前发出的值保存为自己的状态，同时他会在销毁的时候自动向订阅者发出.completed的event，不需要也不能手动给Variable发送completed或error事件来结束他。简单的说，Variable有一个value的属性，我们改变这个value的属性的值就相当于给订阅者发送一次onNext()方法，而这个最新的onNext()值就保存在value的属性里。
-        //Variable本身没有subscribe方法，但是所有的subjects都有一个asObservable()的方法，返回这个VAriable的Observable类型，可以用来订阅。
+        //Variable本身没有subscribe方法，但是所有的subjects都有一个asObservable()的方法，返回这个Variable的Observable类型，可以用来订阅。
         let variable = Variable("111")
         variable.value = "222"
         variable.asObservable().subscribe {

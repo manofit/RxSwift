@@ -84,13 +84,13 @@ class ObservableSubscribeDoonDisposeViewController: UIViewController {
         let observable6 = Observable.of("A", "B", "C")
         observable6.subscribe { event in
             print(event)
-            }.disposed(by: disposeBag)
+        }.disposed(by: disposeBag)
         
         //第2个Observable，及其订阅
         let observable7 = Observable.of(1, 2, 3)
         observable7.subscribe { event in
             print(event)
-            }.disposed(by: disposeBag)
+        }.disposed(by: disposeBag)
     }
 
 

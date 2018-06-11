@@ -47,9 +47,9 @@ class BufferMapFlatMapScanViewController: UIViewController {
             print("subscribe:\($0)")
             $0.asObservable().subscribe(onNext: {print($0)}).disposed(by: (self?.disposeBag)!)
         }).disposed(by: disposeBag)
-        subject2.onNext("a")
-        subject2.onNext("b")
-        subject2.onNext("c")
+        subject2.onNext("d")
+        subject2.onNext("e")
+        subject2.onNext("f")
         
         subject2.onNext("1")
         subject2.onNext("2")
