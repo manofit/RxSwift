@@ -32,6 +32,10 @@ class ViewController: UIViewController {
             Project(title:"条件和布尔操作符：amb、takeWhile、skipWhile等"),
             Project(title:"结合操作符：startWith、merge、zip等"),
             Project(title:"算数&聚合操作符：toArray、reduce、concat"),
+            Project(title:"连接操作符：connect、publish、replay、multicast"),
+            Project(title:"其他操作符：delay、materialize、timeout等"),
+            Project(title:"错误处理"),
+            Project(title:"调试操作"),
         ])
     }
     
@@ -80,6 +84,14 @@ class ViewController: UIViewController {
                 self.navigationController?.pushViewController(StartWithMergeZipViewController(), animated: true)
             }else if indexPath.row == 9 {
                 self.navigationController?.pushViewController(ToArrayReduceConcatViewController(), animated: true)
+            }else if indexPath.row == 10 {
+                self.navigationController?.pushViewController(ConnectPublishReplayMulticastViewController(), animated: true)
+            }else if indexPath.row == 11 {
+                self.navigationController?.pushViewController(DelayMaterializeTimeoutViewController(), animated: true)
+            }else if indexPath.row == 12 {
+                self.navigationController?.pushViewController(ErrorHandlerViewController(), animated: true)
+            }else if indexPath.row == 13 {
+                self.navigationController?.pushViewController(DebuggingViewController(), animated: true)
             }
         }).disposed(by: disposeBag)
     }

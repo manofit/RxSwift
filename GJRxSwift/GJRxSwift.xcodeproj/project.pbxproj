@@ -12,6 +12,10 @@
 		E108D30F20CE3E5F0096E47C /* AmbTakeWhileSkipWhileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E108D30E20CE3E5F0096E47C /* AmbTakeWhileSkipWhileViewController.swift */; };
 		E108D31220CE4CA40096E47C /* StartWithMergeZipViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E108D31120CE4CA40096E47C /* StartWithMergeZipViewController.swift */; };
 		E108D31520CE6EE80096E47C /* ToArrayReduceConcatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E108D31420CE6EE80096E47C /* ToArrayReduceConcatViewController.swift */; };
+		E108D32220D0B4F80096E47C /* ConnectPublishReplayMulticastViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E108D32120D0B4F80096E47C /* ConnectPublishReplayMulticastViewController.swift */; };
+		E108D32520D0E29C0096E47C /* DelayMaterializeTimeoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E108D32420D0E29C0096E47C /* DelayMaterializeTimeoutViewController.swift */; };
+		E108D32820D0F80E0096E47C /* ErrorHandlerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E108D32720D0F80E0096E47C /* ErrorHandlerViewController.swift */; };
+		E108D32B20D1109C0096E47C /* DebuggingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E108D32A20D1109C0096E47C /* DebuggingViewController.swift */; };
 		E138BA3B20C8CE1D00879E28 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E138BA3A20C8CE1D00879E28 /* AppDelegate.swift */; };
 		E138BA3D20C8CE1D00879E28 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E138BA3C20C8CE1D00879E28 /* ViewController.swift */; };
 		E138BA4020C8CE1D00879E28 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E138BA3E20C8CE1D00879E28 /* Main.storyboard */; };
@@ -33,6 +37,10 @@
 		E108D30E20CE3E5F0096E47C /* AmbTakeWhileSkipWhileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmbTakeWhileSkipWhileViewController.swift; sourceTree = "<group>"; };
 		E108D31120CE4CA40096E47C /* StartWithMergeZipViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartWithMergeZipViewController.swift; sourceTree = "<group>"; };
 		E108D31420CE6EE80096E47C /* ToArrayReduceConcatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToArrayReduceConcatViewController.swift; sourceTree = "<group>"; };
+		E108D32120D0B4F80096E47C /* ConnectPublishReplayMulticastViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectPublishReplayMulticastViewController.swift; sourceTree = "<group>"; };
+		E108D32420D0E29C0096E47C /* DelayMaterializeTimeoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelayMaterializeTimeoutViewController.swift; sourceTree = "<group>"; };
+		E108D32720D0F80E0096E47C /* ErrorHandlerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorHandlerViewController.swift; sourceTree = "<group>"; };
+		E108D32A20D1109C0096E47C /* DebuggingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebuggingViewController.swift; sourceTree = "<group>"; };
 		E138BA3720C8CE1D00879E28 /* GJRxSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GJRxSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E138BA3A20C8CE1D00879E28 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E138BA3C20C8CE1D00879E28 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -109,6 +117,38 @@
 			path = "算数&聚合操作符：toArray、reduce、concat";
 			sourceTree = "<group>";
 		};
+		E108D32020D0B4CD0096E47C /* 连接操作符：connect、publish、replay、multicast */ = {
+			isa = PBXGroup;
+			children = (
+				E108D32120D0B4F80096E47C /* ConnectPublishReplayMulticastViewController.swift */,
+			);
+			path = "连接操作符：connect、publish、replay、multicast";
+			sourceTree = "<group>";
+		};
+		E108D32320D0E2820096E47C /* 其他操作符：delay、materialize、timeout等 */ = {
+			isa = PBXGroup;
+			children = (
+				E108D32420D0E29C0096E47C /* DelayMaterializeTimeoutViewController.swift */,
+			);
+			path = "其他操作符：delay、materialize、timeout等";
+			sourceTree = "<group>";
+		};
+		E108D32620D0F8020096E47C /* 错误处理 */ = {
+			isa = PBXGroup;
+			children = (
+				E108D32720D0F80E0096E47C /* ErrorHandlerViewController.swift */,
+			);
+			path = "错误处理";
+			sourceTree = "<group>";
+		};
+		E108D32920D110840096E47C /* 调试操作 */ = {
+			isa = PBXGroup;
+			children = (
+				E108D32A20D1109C0096E47C /* DebuggingViewController.swift */,
+			);
+			path = "调试操作";
+			sourceTree = "<group>";
+		};
 		E138BA2E20C8CE1D00879E28 = {
 			isa = PBXGroup;
 			children = (
@@ -130,6 +170,10 @@
 		E138BA3920C8CE1D00879E28 /* GJRxSwift */ = {
 			isa = PBXGroup;
 			children = (
+				E108D32920D110840096E47C /* 调试操作 */,
+				E108D32620D0F8020096E47C /* 错误处理 */,
+				E108D32320D0E2820096E47C /* 其他操作符：delay、materialize、timeout等 */,
+				E108D32020D0B4CD0096E47C /* 连接操作符：connect、publish、replay、multicast */,
 				E108D31320CE6ED40096E47C /* 算数&聚合操作符：toArray、reduce、concat */,
 				E108D31020CE4C920096E47C /* 结合操作符：startWith、merge、zip等 */,
 				E108D30D20CE3E4C0096E47C /* 条件和布尔操作符：amb、takeWhile、skipWhile等 */,
@@ -313,11 +357,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E108D32520D0E29C0096E47C /* DelayMaterializeTimeoutViewController.swift in Sources */,
 				E108D31220CE4CA40096E47C /* StartWithMergeZipViewController.swift in Sources */,
 				E138BA5D20CA1A2F00879E28 /* SubjectsVariablesViewController.swift in Sources */,
+				E108D32B20D1109C0096E47C /* DebuggingViewController.swift in Sources */,
+				E108D32820D0F80E0096E47C /* ErrorHandlerViewController.swift in Sources */,
 				E138BA3D20C8CE1D00879E28 /* ViewController.swift in Sources */,
 				E108D31520CE6EE80096E47C /* ToArrayReduceConcatViewController.swift in Sources */,
 				E138BA5520C900BB00879E28 /* AnyObserverBinderViewController.swift in Sources */,
+				E108D32220D0B4F80096E47C /* ConnectPublishReplayMulticastViewController.swift in Sources */,
 				E138BA3B20C8CE1D00879E28 /* AppDelegate.swift in Sources */,
 				E138BA6020CA44FD00879E28 /* BufferMapFlatMapScanViewController.swift in Sources */,
 				E108D30F20CE3E5F0096E47C /* AmbTakeWhileSkipWhileViewController.swift in Sources */,
