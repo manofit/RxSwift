@@ -17,6 +17,7 @@
 		E108D32820D0F80E0096E47C /* ErrorHandlerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E108D32720D0F80E0096E47C /* ErrorHandlerViewController.swift */; };
 		E108D32B20D1109C0096E47C /* DebuggingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E108D32A20D1109C0096E47C /* DebuggingViewController.swift */; };
 		E108D36920D3806D0096E47C /* SingleCompletableMaybeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E108D36820D3806D0096E47C /* SingleCompletableMaybeViewController.swift */; };
+		E108D36C20D39EB60096E47C /* DriverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E108D36B20D39EB60096E47C /* DriverViewController.swift */; };
 		E138BA3B20C8CE1D00879E28 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E138BA3A20C8CE1D00879E28 /* AppDelegate.swift */; };
 		E138BA3D20C8CE1D00879E28 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E138BA3C20C8CE1D00879E28 /* ViewController.swift */; };
 		E138BA4020C8CE1D00879E28 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E138BA3E20C8CE1D00879E28 /* Main.storyboard */; };
@@ -43,6 +44,7 @@
 		E108D32720D0F80E0096E47C /* ErrorHandlerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorHandlerViewController.swift; sourceTree = "<group>"; };
 		E108D32A20D1109C0096E47C /* DebuggingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebuggingViewController.swift; sourceTree = "<group>"; };
 		E108D36820D3806D0096E47C /* SingleCompletableMaybeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleCompletableMaybeViewController.swift; sourceTree = "<group>"; };
+		E108D36B20D39EB60096E47C /* DriverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriverViewController.swift; sourceTree = "<group>"; };
 		E138BA3720C8CE1D00879E28 /* GJRxSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GJRxSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E138BA3A20C8CE1D00879E28 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E138BA3C20C8CE1D00879E28 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -159,6 +161,14 @@
 			path = "特征序列1：Single、Completable、Maybe";
 			sourceTree = "<group>";
 		};
+		E108D36A20D39EAA0096E47C /* 特征序列2：Driver */ = {
+			isa = PBXGroup;
+			children = (
+				E108D36B20D39EB60096E47C /* DriverViewController.swift */,
+			);
+			path = "特征序列2：Driver";
+			sourceTree = "<group>";
+		};
 		E138BA2E20C8CE1D00879E28 = {
 			isa = PBXGroup;
 			children = (
@@ -180,6 +190,7 @@
 		E138BA3920C8CE1D00879E28 /* GJRxSwift */ = {
 			isa = PBXGroup;
 			children = (
+				E108D36A20D39EAA0096E47C /* 特征序列2：Driver */,
 				E108D36720D380450096E47C /* 特征序列1：Single、Completable、Maybe */,
 				E108D32920D110840096E47C /* 调试操作 */,
 				E108D32620D0F8020096E47C /* 错误处理 */,
@@ -368,6 +379,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E108D36C20D39EB60096E47C /* DriverViewController.swift in Sources */,
 				E108D32520D0E29C0096E47C /* DelayMaterializeTimeoutViewController.swift in Sources */,
 				E108D31220CE4CA40096E47C /* StartWithMergeZipViewController.swift in Sources */,
 				E138BA5D20CA1A2F00879E28 /* SubjectsVariablesViewController.swift in Sources */,

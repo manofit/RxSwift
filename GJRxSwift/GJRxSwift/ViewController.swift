@@ -37,6 +37,7 @@ class ViewController: UIViewController {
             Project(title:"错误处理"),
             Project(title:"调试操作"),
             Project(title:"特征序列1：Single、Completable、Maybe"),
+            Project(title:"特征序列2：Driver")
         ])
     }
     
@@ -93,6 +94,10 @@ class ViewController: UIViewController {
                 self.navigationController?.pushViewController(ErrorHandlerViewController(), animated: true)
             }else if indexPath.row == 13 {
                 self.navigationController?.pushViewController(DebuggingViewController(), animated: true)
+            }else if indexPath.row == 14 {
+                self.navigationController?.pushViewController(SingleCompletableMaybeViewController(), animated: true)
+            }else if indexPath.row == 15 {
+                self.navigationController?.pushViewController(DriverViewController(), animated: true)
             }
         }).disposed(by: disposeBag)
     }
