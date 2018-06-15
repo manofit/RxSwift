@@ -36,6 +36,7 @@ class ViewController: UIViewController {
             Project(title:"其他操作符：delay、materialize、timeout等"),
             Project(title:"错误处理"),
             Project(title:"调试操作"),
+            Project(title:"特征序列1：Single、Completable、Maybe"),
         ])
     }
     
