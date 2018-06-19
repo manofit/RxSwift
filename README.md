@@ -6,10 +6,8 @@
 | :-------------: |:-------------:| :------------:|
 | ![运行截图](https://github.com/manofit/ScreenPics/blob/master/RxSwift/001.png)     | ![002](https://github.com/manofit/ScreenPics/blob/master/RxSwift/002.png) | ![003](https://github.com/manofit/ScreenPics/blob/master/RxSwift/003.png) |
 | 004        |      005           |  006  |
-| :-------------: |:-------------:| :------------:|
 | ![004](https://github.com/manofit/ScreenPics/blob/master/RxSwift/004.png)     | ![005](https://github.com/manofit/ScreenPics/blob/master/RxSwift/004.png) | ![006](https://github.com/manofit/ScreenPics/blob/master/RxSwift/006.png) |
 | 007        |      008           |  009  |
-| :-------------: |:-------------:| :------------:|
 | ![007](https://github.com/manofit/ScreenPics/blob/master/RxSwift/007.png)     | ![008](https://github.com/manofit/ScreenPics/blob/master/RxSwift/008.png) | ![009](https://github.com/manofit/ScreenPics/blob/master/RxSwift/009.png) |
 
 学习RxSwift这条路还有很长，代码也会越写越长，与全部热爱学习的伙伴共勉。
