@@ -37,7 +37,9 @@ class ViewController: UIViewController {
             Project(title:"错误处理"),
             Project(title:"调试操作"),
             Project(title:"特征序列1：Single、Completable、Maybe"),
-            Project(title:"特征序列2：Driver")
+            Project(title:"特征序列2：Driver"),
+            Project(title:"特征序列3：ControlProperty、 ControlEvent"),
+            Project(title:"给 UIViewController 添加 RxSwift 扩展"),
         ])
     }
     
@@ -98,6 +100,10 @@ class ViewController: UIViewController {
                 self.navigationController?.pushViewController(SingleCompletableMaybeViewController(), animated: true)
             }else if indexPath.row == 15 {
                 self.navigationController?.pushViewController(DriverViewController(), animated: true)
+            }else if indexPath.row == 16 {
+                self.navigationController?.pushViewController(ControlPropetyControlEventViewController(), animated: true)
+            }else if indexPath.row == 17 {
+                self.navigationController?.pushViewController(UIViewControllerRxExtendViewController(), animated: true)
             }
         }).disposed(by: disposeBag)
     }

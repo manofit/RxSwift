@@ -18,6 +18,9 @@
 		E108D32B20D1109C0096E47C /* DebuggingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E108D32A20D1109C0096E47C /* DebuggingViewController.swift */; };
 		E108D36920D3806D0096E47C /* SingleCompletableMaybeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E108D36820D3806D0096E47C /* SingleCompletableMaybeViewController.swift */; };
 		E108D36C20D39EB60096E47C /* DriverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E108D36B20D39EB60096E47C /* DriverViewController.swift */; };
+		E1153DEA20D8EF99005CF356 /* ControlPropetyControlEventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1153DE920D8EF99005CF356 /* ControlPropetyControlEventViewController.swift */; };
+		E1153DED20D8F835005CF356 /* UIViewControllerRxExtendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1153DEC20D8F835005CF356 /* UIViewControllerRxExtendViewController.swift */; };
+		E1153DF120D8F901005CF356 /* UIViewController+RxSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1153DF020D8F901005CF356 /* UIViewController+RxSwift.swift */; };
 		E138BA3B20C8CE1D00879E28 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E138BA3A20C8CE1D00879E28 /* AppDelegate.swift */; };
 		E138BA3D20C8CE1D00879E28 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E138BA3C20C8CE1D00879E28 /* ViewController.swift */; };
 		E138BA4020C8CE1D00879E28 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E138BA3E20C8CE1D00879E28 /* Main.storyboard */; };
@@ -45,6 +48,9 @@
 		E108D32A20D1109C0096E47C /* DebuggingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebuggingViewController.swift; sourceTree = "<group>"; };
 		E108D36820D3806D0096E47C /* SingleCompletableMaybeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleCompletableMaybeViewController.swift; sourceTree = "<group>"; };
 		E108D36B20D39EB60096E47C /* DriverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriverViewController.swift; sourceTree = "<group>"; };
+		E1153DE920D8EF99005CF356 /* ControlPropetyControlEventViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlPropetyControlEventViewController.swift; sourceTree = "<group>"; };
+		E1153DEC20D8F835005CF356 /* UIViewControllerRxExtendViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerRxExtendViewController.swift; sourceTree = "<group>"; };
+		E1153DF020D8F901005CF356 /* UIViewController+RxSwift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+RxSwift.swift"; sourceTree = "<group>"; };
 		E138BA3720C8CE1D00879E28 /* GJRxSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GJRxSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E138BA3A20C8CE1D00879E28 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E138BA3C20C8CE1D00879E28 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -169,6 +175,23 @@
 			path = "特征序列2：Driver";
 			sourceTree = "<group>";
 		};
+		E1153DE820D8EF77005CF356 /* 特征序列3：ControlProperty、 ControlEvent */ = {
+			isa = PBXGroup;
+			children = (
+				E1153DE920D8EF99005CF356 /* ControlPropetyControlEventViewController.swift */,
+			);
+			path = "特征序列3：ControlProperty、 ControlEvent";
+			sourceTree = "<group>";
+		};
+		E1153DEB20D8F81A005CF356 /* 给 UIViewController 添加 RxSwift 扩展 */ = {
+			isa = PBXGroup;
+			children = (
+				E1153DEC20D8F835005CF356 /* UIViewControllerRxExtendViewController.swift */,
+				E1153DF020D8F901005CF356 /* UIViewController+RxSwift.swift */,
+			);
+			path = "给 UIViewController 添加 RxSwift 扩展";
+			sourceTree = "<group>";
+		};
 		E138BA2E20C8CE1D00879E28 = {
 			isa = PBXGroup;
 			children = (
@@ -190,6 +213,8 @@
 		E138BA3920C8CE1D00879E28 /* GJRxSwift */ = {
 			isa = PBXGroup;
 			children = (
+				E1153DEB20D8F81A005CF356 /* 给 UIViewController 添加 RxSwift 扩展 */,
+				E1153DE820D8EF77005CF356 /* 特征序列3：ControlProperty、 ControlEvent */,
 				E108D36A20D39EAA0096E47C /* 特征序列2：Driver */,
 				E108D36720D380450096E47C /* 特征序列1：Single、Completable、Maybe */,
 				E108D32920D110840096E47C /* 调试操作 */,
@@ -385,12 +410,15 @@
 				E138BA5D20CA1A2F00879E28 /* SubjectsVariablesViewController.swift in Sources */,
 				E108D32B20D1109C0096E47C /* DebuggingViewController.swift in Sources */,
 				E108D32820D0F80E0096E47C /* ErrorHandlerViewController.swift in Sources */,
+				E1153DF120D8F901005CF356 /* UIViewController+RxSwift.swift in Sources */,
 				E138BA3D20C8CE1D00879E28 /* ViewController.swift in Sources */,
+				E1153DEA20D8EF99005CF356 /* ControlPropetyControlEventViewController.swift in Sources */,
 				E108D31520CE6EE80096E47C /* ToArrayReduceConcatViewController.swift in Sources */,
 				E138BA5520C900BB00879E28 /* AnyObserverBinderViewController.swift in Sources */,
 				E108D32220D0B4F80096E47C /* ConnectPublishReplayMulticastViewController.swift in Sources */,
 				E108D36920D3806D0096E47C /* SingleCompletableMaybeViewController.swift in Sources */,
 				E138BA3B20C8CE1D00879E28 /* AppDelegate.swift in Sources */,
+				E1153DED20D8F835005CF356 /* UIViewControllerRxExtendViewController.swift in Sources */,
 				E138BA6020CA44FD00879E28 /* BufferMapFlatMapScanViewController.swift in Sources */,
 				E108D30F20CE3E5F0096E47C /* AmbTakeWhileSkipWhileViewController.swift in Sources */,
 				E138BA5220C8F99100879E28 /* ObservableSubscribeDoonDisposeViewController.swift in Sources */,
