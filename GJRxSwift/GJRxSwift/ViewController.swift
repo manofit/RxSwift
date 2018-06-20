@@ -41,6 +41,9 @@ class ViewController: UIViewController {
             Project(title:"特征序列3：ControlProperty、 ControlEvent"),
             Project(title:"给 UIViewController 添加 RxSwift 扩展"),
             Project(title:"调度器、subscribeOn、observeOn"),
+            Project(title:"UI控件扩展1：UILabel"),
+            Project(title:"UI控件扩展2：UITextField、UITextView"),
+            Project(title:"UI控件扩展3：UIButton、UIBarButtonItem"),
         ])
     }
     
@@ -107,6 +110,12 @@ class ViewController: UIViewController {
                 self.navigationController?.pushViewController(UIViewControllerRxExtendViewController(coder: NSCoder())!, animated: true)
             }else if indexPath.row == 18 {
                 self.navigationController?.pushViewController(SubscribeOnObserveOnViewController(), animated: true)
+            }else if indexPath.row == 19 {
+                self.navigationController?.pushViewController(UILabelViewController(), animated: true)
+            }else if indexPath.row == 20 {
+                self.navigationController?.pushViewController(UITextFieldUITextViewViewController(), animated: true)
+            }else if indexPath.row == 21 {
+                self.navigationController?.pushViewController(UIButtonUIBarButtonItemViewController(), animated: true)
             }
         }).disposed(by: disposeBag)
     }

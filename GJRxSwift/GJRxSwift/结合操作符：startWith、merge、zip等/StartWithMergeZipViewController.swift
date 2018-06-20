@@ -66,7 +66,7 @@ class StartWithMergeZipViewController: UIViewController {
         
         
         //combineLatest
-        //整个多个Observable，不同的是：每当任意一个Observable有新的事件产生时候，就会将其他Observable序列最新的事件用来合并
+        //整合多个Observable，不同的是：每当任意一个Observable有新的事件产生时候，就会将其他Observable序列最新的事件用来合并
         let subject5 = PublishSubject<Int>()
         let subject6 = PublishSubject<String>()
         
