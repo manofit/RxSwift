@@ -40,6 +40,7 @@ class ViewController: UIViewController {
             Project(title:"特征序列2：Driver"),
             Project(title:"特征序列3：ControlProperty、 ControlEvent"),
             Project(title:"给 UIViewController 添加 RxSwift 扩展"),
+            Project(title:"调度器、subscribeOn、observeOn"),
         ])
     }
     
@@ -103,7 +104,9 @@ class ViewController: UIViewController {
             }else if indexPath.row == 16 {
                 self.navigationController?.pushViewController(ControlPropetyControlEventViewController(), animated: true)
             }else if indexPath.row == 17 {
-                self.navigationController?.pushViewController(UIViewControllerRxExtendViewController(), animated: true)
+                self.navigationController?.pushViewController(UIViewControllerRxExtendViewController(coder: NSCoder())!, animated: true)
+            }else if indexPath.row == 18 {
+                self.navigationController?.pushViewController(SubscribeOnObserveOnViewController(), animated: true)
             }
         }).disposed(by: disposeBag)
     }

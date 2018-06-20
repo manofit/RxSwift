@@ -21,6 +21,7 @@
 		E1153DEA20D8EF99005CF356 /* ControlPropetyControlEventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1153DE920D8EF99005CF356 /* ControlPropetyControlEventViewController.swift */; };
 		E1153DED20D8F835005CF356 /* UIViewControllerRxExtendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1153DEC20D8F835005CF356 /* UIViewControllerRxExtendViewController.swift */; };
 		E1153DF120D8F901005CF356 /* UIViewController+RxSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1153DF020D8F901005CF356 /* UIViewController+RxSwift.swift */; };
+		E1153DFA20D9FC3A005CF356 /* SubscribeOnObserveOnViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1153DF920D9FC3A005CF356 /* SubscribeOnObserveOnViewController.swift */; };
 		E138BA3B20C8CE1D00879E28 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E138BA3A20C8CE1D00879E28 /* AppDelegate.swift */; };
 		E138BA3D20C8CE1D00879E28 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E138BA3C20C8CE1D00879E28 /* ViewController.swift */; };
 		E138BA4020C8CE1D00879E28 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E138BA3E20C8CE1D00879E28 /* Main.storyboard */; };
@@ -51,6 +52,7 @@
 		E1153DE920D8EF99005CF356 /* ControlPropetyControlEventViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlPropetyControlEventViewController.swift; sourceTree = "<group>"; };
 		E1153DEC20D8F835005CF356 /* UIViewControllerRxExtendViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerRxExtendViewController.swift; sourceTree = "<group>"; };
 		E1153DF020D8F901005CF356 /* UIViewController+RxSwift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+RxSwift.swift"; sourceTree = "<group>"; };
+		E1153DF920D9FC3A005CF356 /* SubscribeOnObserveOnViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscribeOnObserveOnViewController.swift; sourceTree = "<group>"; };
 		E138BA3720C8CE1D00879E28 /* GJRxSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GJRxSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E138BA3A20C8CE1D00879E28 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E138BA3C20C8CE1D00879E28 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -192,6 +194,14 @@
 			path = "给 UIViewController 添加 RxSwift 扩展";
 			sourceTree = "<group>";
 		};
+		E1153DF820D9FC22005CF356 /* 调度器、subscribeOn、observeOn */ = {
+			isa = PBXGroup;
+			children = (
+				E1153DF920D9FC3A005CF356 /* SubscribeOnObserveOnViewController.swift */,
+			);
+			path = "调度器、subscribeOn、observeOn";
+			sourceTree = "<group>";
+		};
 		E138BA2E20C8CE1D00879E28 = {
 			isa = PBXGroup;
 			children = (
@@ -213,6 +223,7 @@
 		E138BA3920C8CE1D00879E28 /* GJRxSwift */ = {
 			isa = PBXGroup;
 			children = (
+				E1153DF820D9FC22005CF356 /* 调度器、subscribeOn、observeOn */,
 				E1153DEB20D8F81A005CF356 /* 给 UIViewController 添加 RxSwift 扩展 */,
 				E1153DE820D8EF77005CF356 /* 特征序列3：ControlProperty、 ControlEvent */,
 				E108D36A20D39EAA0096E47C /* 特征序列2：Driver */,
@@ -410,6 +421,7 @@
 				E138BA5D20CA1A2F00879E28 /* SubjectsVariablesViewController.swift in Sources */,
 				E108D32B20D1109C0096E47C /* DebuggingViewController.swift in Sources */,
 				E108D32820D0F80E0096E47C /* ErrorHandlerViewController.swift in Sources */,
+				E1153DFA20D9FC3A005CF356 /* SubscribeOnObserveOnViewController.swift in Sources */,
 				E1153DF120D8F901005CF356 /* UIViewController+RxSwift.swift in Sources */,
 				E138BA3D20C8CE1D00879E28 /* ViewController.swift in Sources */,
 				E1153DEA20D8EF99005CF356 /* ControlPropetyControlEventViewController.swift in Sources */,

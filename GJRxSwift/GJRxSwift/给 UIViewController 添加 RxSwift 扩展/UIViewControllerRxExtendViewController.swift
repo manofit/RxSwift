@@ -19,14 +19,13 @@ class UIViewControllerRxExtendViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        
     }
     
     required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         
         //页面显示状态完毕
-        self.rx.isVisible.subscribe(onNext: {visible in
+        self.rx.isVisible.subscribe(onNext: { visible in
             print("当前页面显示状态：\(visible)")
         }).disposed(by: disposeBag)
         
