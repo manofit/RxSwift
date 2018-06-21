@@ -30,6 +30,7 @@
 		E1153E0E20DB4661005CF356 /* BindViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1153E0D20DB4661005CF356 /* BindViewController.swift */; };
 		E1153E1120DB7F0F005CF356 /* UIGestureRecgnizerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1153E1020DB7F0F005CF356 /* UIGestureRecgnizerViewController.swift */; };
 		E1153E1420DB83DC005CF356 /* UIDatePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1153E1320DB83DC005CF356 /* UIDatePickerViewController.swift */; };
+		E1153E1720DB9C87005CF356 /* UITableViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1153E1620DB9C87005CF356 /* UITableViewViewController.swift */; };
 		E138BA3B20C8CE1D00879E28 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E138BA3A20C8CE1D00879E28 /* AppDelegate.swift */; };
 		E138BA3D20C8CE1D00879E28 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E138BA3C20C8CE1D00879E28 /* ViewController.swift */; };
 		E138BA4020C8CE1D00879E28 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E138BA3E20C8CE1D00879E28 /* Main.storyboard */; };
@@ -69,6 +70,7 @@
 		E1153E0D20DB4661005CF356 /* BindViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindViewController.swift; sourceTree = "<group>"; };
 		E1153E1020DB7F0F005CF356 /* UIGestureRecgnizerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIGestureRecgnizerViewController.swift; sourceTree = "<group>"; };
 		E1153E1320DB83DC005CF356 /* UIDatePickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIDatePickerViewController.swift; sourceTree = "<group>"; };
+		E1153E1620DB9C87005CF356 /* UITableViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITableViewViewController.swift; sourceTree = "<group>"; };
 		E138BA3720C8CE1D00879E28 /* GJRxSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GJRxSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E138BA3A20C8CE1D00879E28 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E138BA3C20C8CE1D00879E28 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -282,6 +284,14 @@
 			path = "UI控件扩展8：UIDatePicker";
 			sourceTree = "<group>";
 		};
+		E1153E1520DB9C70005CF356 /* UITableView的使用1：基本用法 */ = {
+			isa = PBXGroup;
+			children = (
+				E1153E1620DB9C87005CF356 /* UITableViewViewController.swift */,
+			);
+			path = "UITableView的使用1：基本用法";
+			sourceTree = "<group>";
+		};
 		E138BA2E20C8CE1D00879E28 = {
 			isa = PBXGroup;
 			children = (
@@ -303,6 +313,7 @@
 		E138BA3920C8CE1D00879E28 /* GJRxSwift */ = {
 			isa = PBXGroup;
 			children = (
+				E1153E1520DB9C70005CF356 /* UITableView的使用1：基本用法 */,
 				E1153E1220DB83C7005CF356 /* UI控件扩展8：UIDatePicker */,
 				E1153E0F20DB7EF0005CF356 /* UI控件扩展7：UIGestureRecognizer */,
 				E1153E0C20DB464B005CF356 /* 双向绑定：<-> */,
@@ -522,6 +533,7 @@
 				E1153DFD20DA1825005CF356 /* UILabelViewController.swift in Sources */,
 				E138BA5520C900BB00879E28 /* AnyObserverBinderViewController.swift in Sources */,
 				E108D32220D0B4F80096E47C /* ConnectPublishReplayMulticastViewController.swift in Sources */,
+				E1153E1720DB9C87005CF356 /* UITableViewViewController.swift in Sources */,
 				E108D36920D3806D0096E47C /* SingleCompletableMaybeViewController.swift in Sources */,
 				E138BA3B20C8CE1D00879E28 /* AppDelegate.swift in Sources */,
 				E1153DED20D8F835005CF356 /* UIViewControllerRxExtendViewController.swift in Sources */,

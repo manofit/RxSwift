@@ -49,6 +49,7 @@ class ViewController: UIViewController {
             Project(title:"双向绑定：<->"),
             Project(title:"UI控件扩展7：UIGestureRecognizer"),
             Project(title:"UI控件扩展8：UIDatePicker"),
+            Project(title:"UITableView的使用1：基本用法"),
         ])
     }
     
@@ -130,6 +131,8 @@ class ViewController: UIViewController {
                 self.navigationController?.pushViewController(UIGestureRecgnizerViewController(), animated: true)
             }else if indexPath.row == 26 {
                 self.navigationController?.pushViewController(UIDatePickerViewController(), animated: true)
+            }else if indexPath.row == 27 {
+                self.navigationController?.pushViewController(UITableViewViewController(), animated: true)
             }
         }).disposed(by: disposeBag)
     }
