@@ -26,6 +26,10 @@
 		E1153E0020DA2252005CF356 /* UITextFieldUITextViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1153DFF20DA2252005CF356 /* UITextFieldUITextViewViewController.swift */; };
 		E1153E0320DA342C005CF356 /* UIButtonUIBarButtonItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1153E0220DA342C005CF356 /* UIButtonUIBarButtonItemViewController.swift */; };
 		E1153E0620DA4971005CF356 /* UISwitchUISegmentControlViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1153E0520DA4971005CF356 /* UISwitchUISegmentControlViewController.swift */; };
+		E1153E0920DB4509005CF356 /* UISliderUIStepperViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1153E0820DB4509005CF356 /* UISliderUIStepperViewController.swift */; };
+		E1153E0E20DB4661005CF356 /* BindViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1153E0D20DB4661005CF356 /* BindViewController.swift */; };
+		E1153E1120DB7F0F005CF356 /* UIGestureRecgnizerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1153E1020DB7F0F005CF356 /* UIGestureRecgnizerViewController.swift */; };
+		E1153E1420DB83DC005CF356 /* UIDatePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1153E1320DB83DC005CF356 /* UIDatePickerViewController.swift */; };
 		E138BA3B20C8CE1D00879E28 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E138BA3A20C8CE1D00879E28 /* AppDelegate.swift */; };
 		E138BA3D20C8CE1D00879E28 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E138BA3C20C8CE1D00879E28 /* ViewController.swift */; };
 		E138BA4020C8CE1D00879E28 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E138BA3E20C8CE1D00879E28 /* Main.storyboard */; };
@@ -61,6 +65,10 @@
 		E1153DFF20DA2252005CF356 /* UITextFieldUITextViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextFieldUITextViewViewController.swift; sourceTree = "<group>"; };
 		E1153E0220DA342C005CF356 /* UIButtonUIBarButtonItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonUIBarButtonItemViewController.swift; sourceTree = "<group>"; };
 		E1153E0520DA4971005CF356 /* UISwitchUISegmentControlViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UISwitchUISegmentControlViewController.swift; sourceTree = "<group>"; };
+		E1153E0820DB4509005CF356 /* UISliderUIStepperViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UISliderUIStepperViewController.swift; sourceTree = "<group>"; };
+		E1153E0D20DB4661005CF356 /* BindViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindViewController.swift; sourceTree = "<group>"; };
+		E1153E1020DB7F0F005CF356 /* UIGestureRecgnizerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIGestureRecgnizerViewController.swift; sourceTree = "<group>"; };
+		E1153E1320DB83DC005CF356 /* UIDatePickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIDatePickerViewController.swift; sourceTree = "<group>"; };
 		E138BA3720C8CE1D00879E28 /* GJRxSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GJRxSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E138BA3A20C8CE1D00879E28 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E138BA3C20C8CE1D00879E28 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -242,6 +250,38 @@
 			path = "UI控件扩展4：UISwitch、UISegmentedControl";
 			sourceTree = "<group>";
 		};
+		E1153E0720DB44FA005CF356 /* UI控件扩展6：UISlider、UIStepper */ = {
+			isa = PBXGroup;
+			children = (
+				E1153E0820DB4509005CF356 /* UISliderUIStepperViewController.swift */,
+			);
+			path = "UI控件扩展6：UISlider、UIStepper";
+			sourceTree = "<group>";
+		};
+		E1153E0C20DB464B005CF356 /* 双向绑定：<-> */ = {
+			isa = PBXGroup;
+			children = (
+				E1153E0D20DB4661005CF356 /* BindViewController.swift */,
+			);
+			path = "双向绑定：<->";
+			sourceTree = "<group>";
+		};
+		E1153E0F20DB7EF0005CF356 /* UI控件扩展7：UIGestureRecognizer */ = {
+			isa = PBXGroup;
+			children = (
+				E1153E1020DB7F0F005CF356 /* UIGestureRecgnizerViewController.swift */,
+			);
+			path = "UI控件扩展7：UIGestureRecognizer";
+			sourceTree = "<group>";
+		};
+		E1153E1220DB83C7005CF356 /* UI控件扩展8：UIDatePicker */ = {
+			isa = PBXGroup;
+			children = (
+				E1153E1320DB83DC005CF356 /* UIDatePickerViewController.swift */,
+			);
+			path = "UI控件扩展8：UIDatePicker";
+			sourceTree = "<group>";
+		};
 		E138BA2E20C8CE1D00879E28 = {
 			isa = PBXGroup;
 			children = (
@@ -263,6 +303,10 @@
 		E138BA3920C8CE1D00879E28 /* GJRxSwift */ = {
 			isa = PBXGroup;
 			children = (
+				E1153E1220DB83C7005CF356 /* UI控件扩展8：UIDatePicker */,
+				E1153E0F20DB7EF0005CF356 /* UI控件扩展7：UIGestureRecognizer */,
+				E1153E0C20DB464B005CF356 /* 双向绑定：<-> */,
+				E1153E0720DB44FA005CF356 /* UI控件扩展6：UISlider、UIStepper */,
 				E1153E0420DA4958005CF356 /* UI控件扩展4：UISwitch、UISegmentedControl */,
 				E1153E0120DA3416005CF356 /* UI控件扩展3：UIButton、UIBarButtonItem */,
 				E1153DFE20DA2241005CF356 /* UI控件扩展2：UITextField、UITextView */,
@@ -460,7 +504,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				E1153E0620DA4971005CF356 /* UISwitchUISegmentControlViewController.swift in Sources */,
+				E1153E0920DB4509005CF356 /* UISliderUIStepperViewController.swift in Sources */,
+				E1153E0E20DB4661005CF356 /* BindViewController.swift in Sources */,
 				E1153E0020DA2252005CF356 /* UITextFieldUITextViewViewController.swift in Sources */,
+				E1153E1420DB83DC005CF356 /* UIDatePickerViewController.swift in Sources */,
 				E108D36C20D39EB60096E47C /* DriverViewController.swift in Sources */,
 				E108D32520D0E29C0096E47C /* DelayMaterializeTimeoutViewController.swift in Sources */,
 				E108D31220CE4CA40096E47C /* StartWithMergeZipViewController.swift in Sources */,
@@ -479,6 +526,7 @@
 				E138BA3B20C8CE1D00879E28 /* AppDelegate.swift in Sources */,
 				E1153DED20D8F835005CF356 /* UIViewControllerRxExtendViewController.swift in Sources */,
 				E138BA6020CA44FD00879E28 /* BufferMapFlatMapScanViewController.swift in Sources */,
+				E1153E1120DB7F0F005CF356 /* UIGestureRecgnizerViewController.swift in Sources */,
 				E1153E0320DA342C005CF356 /* UIButtonUIBarButtonItemViewController.swift in Sources */,
 				E108D30F20CE3E5F0096E47C /* AmbTakeWhileSkipWhileViewController.swift in Sources */,
 				E138BA5220C8F99100879E28 /* ObservableSubscribeDoonDisposeViewController.swift in Sources */,

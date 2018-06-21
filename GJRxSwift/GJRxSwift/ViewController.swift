@@ -45,14 +45,14 @@ class ViewController: UIViewController {
             Project(title:"UI控件扩展2：UITextField、UITextView"),
             Project(title:"UI控件扩展3：UIButton、UIBarButtonItem"),
             Project(title:"UI控件扩展4：UISwitch、UISegmentedControl"),
+            Project(title:"UI控件扩展6：UISlider、UIStepper"),
+            Project(title:"双向绑定：<->"),
+            Project(title:"UI控件扩展7：UIGestureRecognizer"),
+            Project(title:"UI控件扩展8：UIDatePicker"),
         ])
     }
     
-    lazy var tableView:UITableView? = {
-        let tableView = UITableView(frame: CGRect(x:0, y:0, width:self.view.frame.size.width, height:self.view.frame.size.height), style: .plain)
-        tableView.register(UITableViewCell.self, forCellReuseIdentifier: "projectCell")
-        return tableView
-    }()
+    var tableView:UITableView?
     
     let projectListModel = ProjectListModel()
     
@@ -65,7 +65,10 @@ class ViewController: UIViewController {
         
         title = "RxSwift"
         
+        tableView = UITableView(frame: CGRect(x:0, y:0, width:self.view.frame.size.width, height:self.view.frame.size.height), style: .plain)
+        tableView?.register(UITableViewCell.self, forCellReuseIdentifier: "projectCell")
         view.addSubview(tableView!)
+        
         //将数据源绑定到tableview上
         projectListModel.data.bind(to: (tableView?.rx.items(cellIdentifier: "projectCell"))!) {_, project, cell in
             cell.textLabel?.text = project.title
@@ -119,6 +122,14 @@ class ViewController: UIViewController {
                 self.navigationController?.pushViewController(UIButtonUIBarButtonItemViewController(), animated: true)
             }else if indexPath.row == 22 {
                 self.navigationController?.pushViewController(UISwitchUISegmentControlViewController(), animated: true)
+            }else if indexPath.row == 23 {
+                self.navigationController?.pushViewController(UISliderUIStepperViewController(), animated: true)
+            }else if indexPath.row == 24 {
+                self.navigationController?.pushViewController(BindViewController(), animated: true)
+            }else if indexPath.row == 25 {
+                self.navigationController?.pushViewController(UIGestureRecgnizerViewController(), animated: true)
+            }else if indexPath.row == 26 {
+                self.navigationController?.pushViewController(UIDatePickerViewController(), animated: true)
             }
         }).disposed(by: disposeBag)
     }
