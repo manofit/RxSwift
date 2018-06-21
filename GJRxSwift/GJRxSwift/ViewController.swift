@@ -44,6 +44,7 @@ class ViewController: UIViewController {
             Project(title:"UI控件扩展1：UILabel"),
             Project(title:"UI控件扩展2：UITextField、UITextView"),
             Project(title:"UI控件扩展3：UIButton、UIBarButtonItem"),
+            Project(title:"UI控件扩展4：UISwitch、UISegmentedControl"),
         ])
     }
     
@@ -116,6 +117,8 @@ class ViewController: UIViewController {
                 self.navigationController?.pushViewController(UITextFieldUITextViewViewController(), animated: true)
             }else if indexPath.row == 21 {
                 self.navigationController?.pushViewController(UIButtonUIBarButtonItemViewController(), animated: true)
+            }else if indexPath.row == 22 {
+                self.navigationController?.pushViewController(UISwitchUISegmentControlViewController(), animated: true)
             }
         }).disposed(by: disposeBag)
     }

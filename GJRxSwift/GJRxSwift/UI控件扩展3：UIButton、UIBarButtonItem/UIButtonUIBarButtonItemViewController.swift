@@ -43,10 +43,10 @@ class UIButtonUIBarButtonItemViewController: UIViewController {
         Observable<Int>.interval(1, scheduler: MainScheduler.instance).map(formatTimeInterval).bind(to: button.rx.attributedTitle()).disposed(by: disposeBag)
         
         //按钮图标的绑定
-        Observable<Int>.interval(1, scheduler: MainScheduler.instance).map({
+        Observable<Int>.interval(1, scheduler: MainScheduler.instance).map {
             let name = $0 % 2 == 0 ? "back" : "fooward"
             return UIImage(named:name)!
-        }).bind(to: button.rx.image()).disposed(by: disposeBag)
+        }.bind(to: button.rx.image()).disposed(by: disposeBag)
         
         //按钮背景图片的绑定
         Observable<Int>.interval(1, scheduler: MainScheduler.instance).map {UIImage(named:"\($0 % 2)")!}.bind(to: button.rx.backgroundImage()).disposed(by: disposeBag)

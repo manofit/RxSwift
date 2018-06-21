@@ -25,6 +25,7 @@
 		E1153DFD20DA1825005CF356 /* UILabelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1153DFC20DA1825005CF356 /* UILabelViewController.swift */; };
 		E1153E0020DA2252005CF356 /* UITextFieldUITextViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1153DFF20DA2252005CF356 /* UITextFieldUITextViewViewController.swift */; };
 		E1153E0320DA342C005CF356 /* UIButtonUIBarButtonItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1153E0220DA342C005CF356 /* UIButtonUIBarButtonItemViewController.swift */; };
+		E1153E0620DA4971005CF356 /* UISwitchUISegmentControlViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1153E0520DA4971005CF356 /* UISwitchUISegmentControlViewController.swift */; };
 		E138BA3B20C8CE1D00879E28 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E138BA3A20C8CE1D00879E28 /* AppDelegate.swift */; };
 		E138BA3D20C8CE1D00879E28 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E138BA3C20C8CE1D00879E28 /* ViewController.swift */; };
 		E138BA4020C8CE1D00879E28 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E138BA3E20C8CE1D00879E28 /* Main.storyboard */; };
@@ -59,6 +60,7 @@
 		E1153DFC20DA1825005CF356 /* UILabelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UILabelViewController.swift; sourceTree = "<group>"; };
 		E1153DFF20DA2252005CF356 /* UITextFieldUITextViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextFieldUITextViewViewController.swift; sourceTree = "<group>"; };
 		E1153E0220DA342C005CF356 /* UIButtonUIBarButtonItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonUIBarButtonItemViewController.swift; sourceTree = "<group>"; };
+		E1153E0520DA4971005CF356 /* UISwitchUISegmentControlViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UISwitchUISegmentControlViewController.swift; sourceTree = "<group>"; };
 		E138BA3720C8CE1D00879E28 /* GJRxSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GJRxSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E138BA3A20C8CE1D00879E28 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E138BA3C20C8CE1D00879E28 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -232,6 +234,14 @@
 			path = "UI控件扩展3：UIButton、UIBarButtonItem";
 			sourceTree = "<group>";
 		};
+		E1153E0420DA4958005CF356 /* UI控件扩展4：UISwitch、UISegmentedControl */ = {
+			isa = PBXGroup;
+			children = (
+				E1153E0520DA4971005CF356 /* UISwitchUISegmentControlViewController.swift */,
+			);
+			path = "UI控件扩展4：UISwitch、UISegmentedControl";
+			sourceTree = "<group>";
+		};
 		E138BA2E20C8CE1D00879E28 = {
 			isa = PBXGroup;
 			children = (
@@ -253,6 +263,7 @@
 		E138BA3920C8CE1D00879E28 /* GJRxSwift */ = {
 			isa = PBXGroup;
 			children = (
+				E1153E0420DA4958005CF356 /* UI控件扩展4：UISwitch、UISegmentedControl */,
 				E1153E0120DA3416005CF356 /* UI控件扩展3：UIButton、UIBarButtonItem */,
 				E1153DFE20DA2241005CF356 /* UI控件扩展2：UITextField、UITextView */,
 				E1153DFB20DA1818005CF356 /* UI控件扩展1：UILabel */,
@@ -448,6 +459,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1153E0620DA4971005CF356 /* UISwitchUISegmentControlViewController.swift in Sources */,
 				E1153E0020DA2252005CF356 /* UITextFieldUITextViewViewController.swift in Sources */,
 				E108D36C20D39EB60096E47C /* DriverViewController.swift in Sources */,
 				E108D32520D0E29C0096E47C /* DelayMaterializeTimeoutViewController.swift in Sources */,
