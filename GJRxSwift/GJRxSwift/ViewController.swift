@@ -50,6 +50,8 @@ class ViewController: UIViewController {
             Project(title:"UI控件扩展7：UIGestureRecognizer"),
             Project(title:"UI控件扩展8：UIDatePicker"),
             Project(title:"UITableView的使用1：基本用法"),
+            Project(title:"UITableView的使用2：RxDataSources"),
+            Project(title:"UITableView的使用3：刷新表格数据"),
         ])
     }
     
@@ -133,6 +135,10 @@ class ViewController: UIViewController {
                 self.navigationController?.pushViewController(UIDatePickerViewController(), animated: true)
             }else if indexPath.row == 27 {
                 self.navigationController?.pushViewController(UITableViewViewController(), animated: true)
+            }else if indexPath.row == 28 {
+                self.navigationController?.pushViewController(RxDataSourcesViewController(), animated: true)
+            }else if indexPath.row == 29 {
+                self.navigationController?.pushViewController(RefreshTableViewViewController(), animated: true)
             }
         }).disposed(by: disposeBag)
     }
