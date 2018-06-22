@@ -33,6 +33,8 @@
 		E1153E1720DB9C87005CF356 /* UITableViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1153E1620DB9C87005CF356 /* UITableViewViewController.swift */; };
 		E1153E1A20DC86C5005CF356 /* RxDataSourcesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1153E1920DC86C5005CF356 /* RxDataSourcesViewController.swift */; };
 		E1153E1D20DCC89B005CF356 /* RefreshTableViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1153E1C20DCC89B005CF356 /* RefreshTableViewViewController.swift */; };
+		E1153E2020DCD5E8005CF356 /* TableViewSearchFilterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1153E1F20DCD5E8005CF356 /* TableViewSearchFilterViewController.swift */; };
+		E1153E2320DCF1CB005CF356 /* EditableTableViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1153E2220DCF1CB005CF356 /* EditableTableViewViewController.swift */; };
 		E138BA3B20C8CE1D00879E28 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E138BA3A20C8CE1D00879E28 /* AppDelegate.swift */; };
 		E138BA3D20C8CE1D00879E28 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E138BA3C20C8CE1D00879E28 /* ViewController.swift */; };
 		E138BA4020C8CE1D00879E28 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E138BA3E20C8CE1D00879E28 /* Main.storyboard */; };
@@ -75,6 +77,8 @@
 		E1153E1620DB9C87005CF356 /* UITableViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITableViewViewController.swift; sourceTree = "<group>"; };
 		E1153E1920DC86C5005CF356 /* RxDataSourcesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxDataSourcesViewController.swift; sourceTree = "<group>"; };
 		E1153E1C20DCC89B005CF356 /* RefreshTableViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefreshTableViewViewController.swift; sourceTree = "<group>"; };
+		E1153E1F20DCD5E8005CF356 /* TableViewSearchFilterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewSearchFilterViewController.swift; sourceTree = "<group>"; };
+		E1153E2220DCF1CB005CF356 /* EditableTableViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditableTableViewViewController.swift; sourceTree = "<group>"; };
 		E138BA3720C8CE1D00879E28 /* GJRxSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GJRxSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E138BA3A20C8CE1D00879E28 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E138BA3C20C8CE1D00879E28 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -312,6 +316,22 @@
 			path = "UITableView的使用3：刷新表格数据";
 			sourceTree = "<group>";
 		};
+		E1153E1E20DCD5C6005CF356 /* UITableView的使用4：表格数据的搜索过滤 */ = {
+			isa = PBXGroup;
+			children = (
+				E1153E1F20DCD5E8005CF356 /* TableViewSearchFilterViewController.swift */,
+			);
+			path = "UITableView的使用4：表格数据的搜索过滤";
+			sourceTree = "<group>";
+		};
+		E1153E2120DCF1BA005CF356 /* UITableView的使用5：可编辑表格 */ = {
+			isa = PBXGroup;
+			children = (
+				E1153E2220DCF1CB005CF356 /* EditableTableViewViewController.swift */,
+			);
+			path = "UITableView的使用5：可编辑表格";
+			sourceTree = "<group>";
+		};
 		E138BA2E20C8CE1D00879E28 = {
 			isa = PBXGroup;
 			children = (
@@ -333,6 +353,8 @@
 		E138BA3920C8CE1D00879E28 /* GJRxSwift */ = {
 			isa = PBXGroup;
 			children = (
+				E1153E2120DCF1BA005CF356 /* UITableView的使用5：可编辑表格 */,
+				E1153E1E20DCD5C6005CF356 /* UITableView的使用4：表格数据的搜索过滤 */,
 				E1153E1B20DCC87D005CF356 /* UITableView的使用3：刷新表格数据 */,
 				E1153E1820DC86B2005CF356 /* UITableView的使用2：RxDataSources */,
 				E1153E1520DB9C70005CF356 /* UITableView的使用1：基本用法 */,
@@ -540,6 +562,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1153E2320DCF1CB005CF356 /* EditableTableViewViewController.swift in Sources */,
 				E1153E0620DA4971005CF356 /* UISwitchUISegmentControlViewController.swift in Sources */,
 				E1153E0920DB4509005CF356 /* UISliderUIStepperViewController.swift in Sources */,
 				E1153E0E20DB4661005CF356 /* BindViewController.swift in Sources */,
@@ -560,6 +583,7 @@
 				E1153DFD20DA1825005CF356 /* UILabelViewController.swift in Sources */,
 				E138BA5520C900BB00879E28 /* AnyObserverBinderViewController.swift in Sources */,
 				E108D32220D0B4F80096E47C /* ConnectPublishReplayMulticastViewController.swift in Sources */,
+				E1153E2020DCD5E8005CF356 /* TableViewSearchFilterViewController.swift in Sources */,
 				E1153E1D20DCC89B005CF356 /* RefreshTableViewViewController.swift in Sources */,
 				E1153E1720DB9C87005CF356 /* UITableViewViewController.swift in Sources */,
 				E108D36920D3806D0096E47C /* SingleCompletableMaybeViewController.swift in Sources */,

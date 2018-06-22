@@ -52,6 +52,8 @@ class ViewController: UIViewController {
             Project(title:"UITableView的使用1：基本用法"),
             Project(title:"UITableView的使用2：RxDataSources"),
             Project(title:"UITableView的使用3：刷新表格数据"),
+            Project(title:"UITableView的使用4：表格数据的搜索过滤"),
+            Project(title:"UITableView的使用5：可编辑表格"),
         ])
     }
     
@@ -139,6 +141,10 @@ class ViewController: UIViewController {
                 self.navigationController?.pushViewController(RxDataSourcesViewController(), animated: true)
             }else if indexPath.row == 29 {
                 self.navigationController?.pushViewController(RefreshTableViewViewController(), animated: true)
+            }else if indexPath.row == 30 {
+                self.navigationController?.pushViewController(TableViewSearchFilterViewController(), animated: true)
+            }else if indexPath.row == 31 {
+                self.navigationController?.pushViewController(EditableTableViewViewController(), animated: true)
             }
         }).disposed(by: disposeBag)
     }
