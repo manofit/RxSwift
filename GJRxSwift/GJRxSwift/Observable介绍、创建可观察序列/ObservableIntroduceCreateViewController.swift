@@ -58,7 +58,7 @@ class ObservableIntroduceCreateViewController: UIViewController {
         //创建一个可以无限发出给定元素的observable序列
         let observable9 = Observable.repeatElement(1)
         
-        //generate()
+        //generate()o
         //创建一个只有当所有条件都为true的时候才会给出动作的observable序列
         //下面两个样例的结果相同
         let observable10 = Observable.generate(initialState: 0, condition: {$0<=10}, iterate: {$0+2})

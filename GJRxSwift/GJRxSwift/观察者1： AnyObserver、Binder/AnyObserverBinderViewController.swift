@@ -36,7 +36,7 @@ class AnyObserverBinderViewController: UIViewController {
             print(error)
         }, onCompleted: {
             print("completed")
-        })
+        }).disposed(by: disposeBag)
         //2.在bind方法中创建
         let observable2 = Observable<Int>.interval(1, scheduler: MainScheduler.instance)
         observable2.map {"当前索引数：\($0)"}.bind {(text) in

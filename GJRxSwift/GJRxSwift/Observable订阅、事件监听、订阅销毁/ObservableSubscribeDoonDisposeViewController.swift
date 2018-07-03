@@ -20,7 +20,7 @@ class ObservableSubscribeDoonDisposeViewController: UIViewController {
         view.backgroundColor = UIColor.white
         
         
-        //有了 Observable，我们还要使用 subscribe() 方法来订阅它，接收它发出的 Event。
+        //有了Observable可观察序列，我们还要使用 subscribe() 方法来订阅它，接收它发出的 Event。
         let observable1 = Observable.of("A", "B", "C")
         observable1.subscribe { (event) in
             print(event)
