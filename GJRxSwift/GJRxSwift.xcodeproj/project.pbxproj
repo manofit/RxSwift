@@ -14,6 +14,10 @@
 		E103CBC620EC8CB000B78F2C /* MyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E103CBC520EC8CB000B78F2C /* MyCollectionViewCell.swift */; };
 		E103CBCC20EC94D000B78F2C /* UIPickerViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E103CBCB20EC94D000B78F2C /* UIPickerViewViewController.swift */; };
 		E103CBCE20EC9E7B00B78F2C /* MultipleRowPickerViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E103CBCD20EC9E7B00B78F2C /* MultipleRowPickerViewViewController.swift */; };
+		E103CBD120ECA2E300B78F2C /* WeakUnownedSelfViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E103CBD020ECA2E300B78F2C /* WeakUnownedSelfViewController.swift */; };
+		E103CBD420ECA54100B78F2C /* RxAlamofireViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E103CBD320ECA54100B78F2C /* RxAlamofireViewController.swift */; };
+		E103CBD720ECC2E100B78F2C /* RxAlamofireResultHandleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E103CBD620ECC2E100B78F2C /* RxAlamofireResultHandleViewController.swift */; };
+		E103CBD920ECC6FC00B78F2C /* DataTopModelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E103CBD820ECC6FC00B78F2C /* DataTopModelViewController.swift */; };
 		E108D30C20CE21B50096E47C /* FilterTakeSkipViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E108D30B20CE21B50096E47C /* FilterTakeSkipViewController.swift */; };
 		E108D30F20CE3E5F0096E47C /* AmbTakeWhileSkipWhileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E108D30E20CE3E5F0096E47C /* AmbTakeWhileSkipWhileViewController.swift */; };
 		E108D31220CE4CA40096E47C /* StartWithMergeZipViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E108D31120CE4CA40096E47C /* StartWithMergeZipViewController.swift */; };
@@ -64,6 +68,10 @@
 		E103CBC520EC8CB000B78F2C /* MyCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCollectionViewCell.swift; sourceTree = "<group>"; };
 		E103CBCB20EC94D000B78F2C /* UIPickerViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIPickerViewViewController.swift; sourceTree = "<group>"; };
 		E103CBCD20EC9E7B00B78F2C /* MultipleRowPickerViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleRowPickerViewViewController.swift; sourceTree = "<group>"; };
+		E103CBD020ECA2E300B78F2C /* WeakUnownedSelfViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeakUnownedSelfViewController.swift; sourceTree = "<group>"; };
+		E103CBD320ECA54100B78F2C /* RxAlamofireViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxAlamofireViewController.swift; sourceTree = "<group>"; };
+		E103CBD620ECC2E100B78F2C /* RxAlamofireResultHandleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxAlamofireResultHandleViewController.swift; sourceTree = "<group>"; };
+		E103CBD820ECC6FC00B78F2C /* DataTopModelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataTopModelViewController.swift; sourceTree = "<group>"; };
 		E108D30B20CE21B50096E47C /* FilterTakeSkipViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterTakeSkipViewController.swift; sourceTree = "<group>"; };
 		E108D30E20CE3E5F0096E47C /* AmbTakeWhileSkipWhileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmbTakeWhileSkipWhileViewController.swift; sourceTree = "<group>"; };
 		E108D31120CE4CA40096E47C /* StartWithMergeZipViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartWithMergeZipViewController.swift; sourceTree = "<group>"; };
@@ -167,6 +175,31 @@
 				E103CBCD20EC9E7B00B78F2C /* MultipleRowPickerViewViewController.swift */,
 			);
 			path = "UIPickerView的使用";
+			sourceTree = "<group>";
+		};
+		E103CBCF20ECA2CE00B78F2C /* [weaf self] [unowned self] */ = {
+			isa = PBXGroup;
+			children = (
+				E103CBD020ECA2E300B78F2C /* WeakUnownedSelfViewController.swift */,
+			);
+			path = "[weaf self] [unowned self]";
+			sourceTree = "<group>";
+		};
+		E103CBD220ECA52F00B78F2C /* 结合RxAlamofire使用1：数据请求 */ = {
+			isa = PBXGroup;
+			children = (
+				E103CBD320ECA54100B78F2C /* RxAlamofireViewController.swift */,
+			);
+			path = "结合RxAlamofire使用1：数据请求";
+			sourceTree = "<group>";
+		};
+		E103CBD520ECC2C100B78F2C /* 结合RxAlamofire使用2：结果处理、模型转换 */ = {
+			isa = PBXGroup;
+			children = (
+				E103CBD620ECC2E100B78F2C /* RxAlamofireResultHandleViewController.swift */,
+				E103CBD820ECC6FC00B78F2C /* DataTopModelViewController.swift */,
+			);
+			path = "结合RxAlamofire使用2：结果处理、模型转换";
 			sourceTree = "<group>";
 		};
 		E108D30A20CE219D0096E47C /* 过滤操作符：filter、take、skip等 */ = {
@@ -399,6 +432,9 @@
 		E138BA3920C8CE1D00879E28 /* GJRxSwift */ = {
 			isa = PBXGroup;
 			children = (
+				E103CBD520ECC2C100B78F2C /* 结合RxAlamofire使用2：结果处理、模型转换 */,
+				E103CBD220ECA52F00B78F2C /* 结合RxAlamofire使用1：数据请求 */,
+				E103CBCF20ECA2CE00B78F2C /* [weaf self] [unowned self] */,
 				E103CBCA20EC94BE00B78F2C /* UIPickerView的使用 */,
 				E103CBC220EC70C400B78F2C /* UICollectionView的使用1：基本用法 */,
 				E103CBBF20EC695F00B78F2C /* UITableView的使用7：样式修改 */,
@@ -588,14 +624,20 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-GJRxSwift/Pods-GJRxSwift-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/Differentiator/Differentiator.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/RxAlamofire/RxAlamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
 				"${BUILT_PRODUCTS_DIR}/RxDataSources/RxDataSources.framework",
 				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Differentiator.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxAlamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxDataSources.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
@@ -619,8 +661,10 @@
 				E1153E0E20DB4661005CF356 /* BindViewController.swift in Sources */,
 				E1153E0020DA2252005CF356 /* UITextFieldUITextViewViewController.swift in Sources */,
 				E1153E1420DB83DC005CF356 /* UIDatePickerViewController.swift in Sources */,
+				E103CBD420ECA54100B78F2C /* RxAlamofireViewController.swift in Sources */,
 				E108D36C20D39EB60096E47C /* DriverViewController.swift in Sources */,
 				E108D32520D0E29C0096E47C /* DelayMaterializeTimeoutViewController.swift in Sources */,
+				E103CBD920ECC6FC00B78F2C /* DataTopModelViewController.swift in Sources */,
 				E108D31220CE4CA40096E47C /* StartWithMergeZipViewController.swift in Sources */,
 				E138BA5D20CA1A2F00879E28 /* SubjectsVariablesViewController.swift in Sources */,
 				E1153E1A20DC86C5005CF356 /* RxDataSourcesViewController.swift in Sources */,
@@ -641,6 +685,7 @@
 				E108D36920D3806D0096E47C /* SingleCompletableMaybeViewController.swift in Sources */,
 				E103CBCC20EC94D000B78F2C /* UIPickerViewViewController.swift in Sources */,
 				E138BA3B20C8CE1D00879E28 /* AppDelegate.swift in Sources */,
+				E103CBD720ECC2E100B78F2C /* RxAlamofireResultHandleViewController.swift in Sources */,
 				E1153DED20D8F835005CF356 /* UIViewControllerRxExtendViewController.swift in Sources */,
 				E103CBC420EC70DB00B78F2C /* UICollectionViewViewController.swift in Sources */,
 				E138BA6020CA44FD00879E28 /* BufferMapFlatMapScanViewController.swift in Sources */,
@@ -653,6 +698,7 @@
 				E138BA4F20C8ED6300879E28 /* ObservableIntroduceCreateViewController.swift in Sources */,
 				E103CBC120EC698000B78F2C /* ChangeStyleViewController.swift in Sources */,
 				E138BA5820C922ED00879E28 /* CustomBindablePropertyViewController.swift in Sources */,
+				E103CBD120ECA2E300B78F2C /* WeakUnownedSelfViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

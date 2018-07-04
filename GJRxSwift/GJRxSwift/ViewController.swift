@@ -57,6 +57,8 @@ class ViewController: UIViewController {
             Project(title:"UITableView的使用6：不同类型的单元格混用"),
             Project(title:"UICollectionView的使用1：基本用法"),
             Project(title:"UIPickerView的使用"),
+            Project(title:"[unowned self] 与 [weak self]"),
+            Project(title:"结合RxAlamofire使用2：结果处理、模型转换"),
         ])
     }
     
@@ -153,6 +155,10 @@ class ViewController: UIViewController {
             }else if indexPath.row == 33 {
                 self.navigationController?.pushViewController(UICollectionViewViewController(), animated: true)
             }else if indexPath.row == 34 {
+                self.navigationController?.pushViewController(UICollectionViewViewController(), animated: true)
+            }else if indexPath.row == 35 {
+                self.navigationController?.pushViewController(UICollectionViewViewController(), animated: true)
+            }else if indexPath.row == 36 {
                 self.navigationController?.pushViewController(UICollectionViewViewController(), animated: true)
             }
         }).disposed(by: disposeBag)
