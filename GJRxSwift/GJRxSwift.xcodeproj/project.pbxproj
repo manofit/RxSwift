@@ -8,6 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		3D6CA67A3E5C779F4A9D74AA /* Pods_GJRxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 273A926BC640B712BDE74018 /* Pods_GJRxSwift.framework */; };
+		E103CBBE20EC5C6400B78F2C /* DifferentKindCellViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E103CBBD20EC5C6400B78F2C /* DifferentKindCellViewController.swift */; };
+		E103CBC120EC698000B78F2C /* ChangeStyleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E103CBC020EC698000B78F2C /* ChangeStyleViewController.swift */; };
+		E103CBC420EC70DB00B78F2C /* UICollectionViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E103CBC320EC70DB00B78F2C /* UICollectionViewViewController.swift */; };
+		E103CBC620EC8CB000B78F2C /* MyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E103CBC520EC8CB000B78F2C /* MyCollectionViewCell.swift */; };
+		E103CBCC20EC94D000B78F2C /* UIPickerViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E103CBCB20EC94D000B78F2C /* UIPickerViewViewController.swift */; };
+		E103CBCE20EC9E7B00B78F2C /* MultipleRowPickerViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E103CBCD20EC9E7B00B78F2C /* MultipleRowPickerViewViewController.swift */; };
 		E108D30C20CE21B50096E47C /* FilterTakeSkipViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E108D30B20CE21B50096E47C /* FilterTakeSkipViewController.swift */; };
 		E108D30F20CE3E5F0096E47C /* AmbTakeWhileSkipWhileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E108D30E20CE3E5F0096E47C /* AmbTakeWhileSkipWhileViewController.swift */; };
 		E108D31220CE4CA40096E47C /* StartWithMergeZipViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E108D31120CE4CA40096E47C /* StartWithMergeZipViewController.swift */; };
@@ -52,6 +58,12 @@
 		273A926BC640B712BDE74018 /* Pods_GJRxSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GJRxSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4968CBE97CAABDD2E7F97EBA /* Pods-GJRxSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GJRxSwift.release.xcconfig"; path = "Pods/Target Support Files/Pods-GJRxSwift/Pods-GJRxSwift.release.xcconfig"; sourceTree = "<group>"; };
 		DC6A8624A081D1BB7BCD2268 /* Pods-GJRxSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GJRxSwift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GJRxSwift/Pods-GJRxSwift.debug.xcconfig"; sourceTree = "<group>"; };
+		E103CBBD20EC5C6400B78F2C /* DifferentKindCellViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DifferentKindCellViewController.swift; sourceTree = "<group>"; };
+		E103CBC020EC698000B78F2C /* ChangeStyleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeStyleViewController.swift; sourceTree = "<group>"; };
+		E103CBC320EC70DB00B78F2C /* UICollectionViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICollectionViewViewController.swift; sourceTree = "<group>"; };
+		E103CBC520EC8CB000B78F2C /* MyCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCollectionViewCell.swift; sourceTree = "<group>"; };
+		E103CBCB20EC94D000B78F2C /* UIPickerViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIPickerViewViewController.swift; sourceTree = "<group>"; };
+		E103CBCD20EC9E7B00B78F2C /* MultipleRowPickerViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleRowPickerViewViewController.swift; sourceTree = "<group>"; };
 		E108D30B20CE21B50096E47C /* FilterTakeSkipViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterTakeSkipViewController.swift; sourceTree = "<group>"; };
 		E108D30E20CE3E5F0096E47C /* AmbTakeWhileSkipWhileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmbTakeWhileSkipWhileViewController.swift; sourceTree = "<group>"; };
 		E108D31120CE4CA40096E47C /* StartWithMergeZipViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartWithMergeZipViewController.swift; sourceTree = "<group>"; };
@@ -121,6 +133,40 @@
 				4968CBE97CAABDD2E7F97EBA /* Pods-GJRxSwift.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		E103CBBC20EC5C4A00B78F2C /* UITableView的使用6：不同类型的单元格混用 */ = {
+			isa = PBXGroup;
+			children = (
+				E103CBBD20EC5C6400B78F2C /* DifferentKindCellViewController.swift */,
+			);
+			path = "UITableView的使用6：不同类型的单元格混用";
+			sourceTree = "<group>";
+		};
+		E103CBBF20EC695F00B78F2C /* UITableView的使用7：样式修改 */ = {
+			isa = PBXGroup;
+			children = (
+				E103CBC020EC698000B78F2C /* ChangeStyleViewController.swift */,
+			);
+			path = "UITableView的使用7：样式修改";
+			sourceTree = "<group>";
+		};
+		E103CBC220EC70C400B78F2C /* UICollectionView的使用1：基本用法 */ = {
+			isa = PBXGroup;
+			children = (
+				E103CBC320EC70DB00B78F2C /* UICollectionViewViewController.swift */,
+				E103CBC520EC8CB000B78F2C /* MyCollectionViewCell.swift */,
+			);
+			path = "UICollectionView的使用1：基本用法";
+			sourceTree = "<group>";
+		};
+		E103CBCA20EC94BE00B78F2C /* UIPickerView的使用 */ = {
+			isa = PBXGroup;
+			children = (
+				E103CBCB20EC94D000B78F2C /* UIPickerViewViewController.swift */,
+				E103CBCD20EC9E7B00B78F2C /* MultipleRowPickerViewViewController.swift */,
+			);
+			path = "UIPickerView的使用";
 			sourceTree = "<group>";
 		};
 		E108D30A20CE219D0096E47C /* 过滤操作符：filter、take、skip等 */ = {
@@ -353,6 +399,10 @@
 		E138BA3920C8CE1D00879E28 /* GJRxSwift */ = {
 			isa = PBXGroup;
 			children = (
+				E103CBCA20EC94BE00B78F2C /* UIPickerView的使用 */,
+				E103CBC220EC70C400B78F2C /* UICollectionView的使用1：基本用法 */,
+				E103CBBF20EC695F00B78F2C /* UITableView的使用7：样式修改 */,
+				E103CBBC20EC5C4A00B78F2C /* UITableView的使用6：不同类型的单元格混用 */,
 				E1153E2120DCF1BA005CF356 /* UITableView的使用5：可编辑表格 */,
 				E1153E1E20DCD5C6005CF356 /* UITableView的使用4：表格数据的搜索过滤 */,
 				E1153E1B20DCC87D005CF356 /* UITableView的使用3：刷新表格数据 */,
@@ -563,6 +613,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E1153E2320DCF1CB005CF356 /* EditableTableViewViewController.swift in Sources */,
+				E103CBCE20EC9E7B00B78F2C /* MultipleRowPickerViewViewController.swift in Sources */,
 				E1153E0620DA4971005CF356 /* UISwitchUISegmentControlViewController.swift in Sources */,
 				E1153E0920DB4509005CF356 /* UISliderUIStepperViewController.swift in Sources */,
 				E1153E0E20DB4661005CF356 /* BindViewController.swift in Sources */,
@@ -573,6 +624,7 @@
 				E108D31220CE4CA40096E47C /* StartWithMergeZipViewController.swift in Sources */,
 				E138BA5D20CA1A2F00879E28 /* SubjectsVariablesViewController.swift in Sources */,
 				E1153E1A20DC86C5005CF356 /* RxDataSourcesViewController.swift in Sources */,
+				E103CBC620EC8CB000B78F2C /* MyCollectionViewCell.swift in Sources */,
 				E108D32B20D1109C0096E47C /* DebuggingViewController.swift in Sources */,
 				E108D32820D0F80E0096E47C /* ErrorHandlerViewController.swift in Sources */,
 				E1153DFA20D9FC3A005CF356 /* SubscribeOnObserveOnViewController.swift in Sources */,
@@ -587,15 +639,19 @@
 				E1153E1D20DCC89B005CF356 /* RefreshTableViewViewController.swift in Sources */,
 				E1153E1720DB9C87005CF356 /* UITableViewViewController.swift in Sources */,
 				E108D36920D3806D0096E47C /* SingleCompletableMaybeViewController.swift in Sources */,
+				E103CBCC20EC94D000B78F2C /* UIPickerViewViewController.swift in Sources */,
 				E138BA3B20C8CE1D00879E28 /* AppDelegate.swift in Sources */,
 				E1153DED20D8F835005CF356 /* UIViewControllerRxExtendViewController.swift in Sources */,
+				E103CBC420EC70DB00B78F2C /* UICollectionViewViewController.swift in Sources */,
 				E138BA6020CA44FD00879E28 /* BufferMapFlatMapScanViewController.swift in Sources */,
+				E103CBBE20EC5C6400B78F2C /* DifferentKindCellViewController.swift in Sources */,
 				E1153E1120DB7F0F005CF356 /* UIGestureRecgnizerViewController.swift in Sources */,
 				E1153E0320DA342C005CF356 /* UIButtonUIBarButtonItemViewController.swift in Sources */,
 				E108D30F20CE3E5F0096E47C /* AmbTakeWhileSkipWhileViewController.swift in Sources */,
 				E138BA5220C8F99100879E28 /* ObservableSubscribeDoonDisposeViewController.swift in Sources */,
 				E108D30C20CE21B50096E47C /* FilterTakeSkipViewController.swift in Sources */,
 				E138BA4F20C8ED6300879E28 /* ObservableIntroduceCreateViewController.swift in Sources */,
+				E103CBC120EC698000B78F2C /* ChangeStyleViewController.swift in Sources */,
 				E138BA5820C922ED00879E28 /* CustomBindablePropertyViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

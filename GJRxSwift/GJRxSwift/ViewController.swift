@@ -54,6 +54,9 @@ class ViewController: UIViewController {
             Project(title:"UITableView的使用3：刷新表格数据"),
             Project(title:"UITableView的使用4：表格数据的搜索过滤"),
             Project(title:"UITableView的使用5：可编辑表格"),
+            Project(title:"UITableView的使用6：不同类型的单元格混用"),
+            Project(title:"UICollectionView的使用1：基本用法"),
+            Project(title:"UIPickerView的使用"),
         ])
     }
     
@@ -145,6 +148,12 @@ class ViewController: UIViewController {
                 self.navigationController?.pushViewController(TableViewSearchFilterViewController(), animated: true)
             }else if indexPath.row == 31 {
                 self.navigationController?.pushViewController(EditableTableViewViewController(), animated: true)
+            }else if indexPath.row == 32 {
+                self.navigationController?.pushViewController(DifferentKindCellViewController(), animated: true)
+            }else if indexPath.row == 33 {
+                self.navigationController?.pushViewController(UICollectionViewViewController(), animated: true)
+            }else if indexPath.row == 34 {
+                self.navigationController?.pushViewController(UICollectionViewViewController(), animated: true)
             }
         }).disposed(by: disposeBag)
     }
