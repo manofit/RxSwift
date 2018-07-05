@@ -63,6 +63,7 @@ class ViewController: UIViewController {
             Project(title:"结合RxAlamofire使用2：结果处理、模型转换"),
             Project(title:"结合RxAlamofire使用3：文件上传"),
             Project(title:"结合RxAlamofire使用4：文件下载"),
+            Project(title:"结合Moya使用1：数据请求"),
         ])
     }
     
@@ -172,6 +173,8 @@ class ViewController: UIViewController {
                 self.navigationController?.pushViewController(FileUploadViewController(), animated: true)
             }else if indexPath.row == 40 {
                 self.navigationController?.pushViewController(FileDownloadViewController(), animated: true)
+            }else if indexPath.row == 41 {
+                self.navigationController?.pushViewController(MoyaRequestDataViewController(), animated: true)
             }
         }).disposed(by: disposeBag)
     }
