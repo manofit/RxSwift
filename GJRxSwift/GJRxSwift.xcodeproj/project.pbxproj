@@ -18,6 +18,9 @@
 		E103CBD420ECA54100B78F2C /* RxAlamofireViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E103CBD320ECA54100B78F2C /* RxAlamofireViewController.swift */; };
 		E103CBD720ECC2E100B78F2C /* RxAlamofireResultHandleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E103CBD620ECC2E100B78F2C /* RxAlamofireResultHandleViewController.swift */; };
 		E103CBD920ECC6FC00B78F2C /* DataTopModelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E103CBD820ECC6FC00B78F2C /* DataTopModelViewController.swift */; };
+		E103CBDB20EDA4A300B78F2C /* RxObjectMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E103CBDA20EDA4A300B78F2C /* RxObjectMapper.swift */; };
+		E103CBDE20EDB5D500B78F2C /* FileUploadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E103CBDD20EDB5D500B78F2C /* FileUploadViewController.swift */; };
+		E103CBE120EDC75300B78F2C /* FileDownloadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E103CBE020EDC75300B78F2C /* FileDownloadViewController.swift */; };
 		E108D30C20CE21B50096E47C /* FilterTakeSkipViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E108D30B20CE21B50096E47C /* FilterTakeSkipViewController.swift */; };
 		E108D30F20CE3E5F0096E47C /* AmbTakeWhileSkipWhileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E108D30E20CE3E5F0096E47C /* AmbTakeWhileSkipWhileViewController.swift */; };
 		E108D31220CE4CA40096E47C /* StartWithMergeZipViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E108D31120CE4CA40096E47C /* StartWithMergeZipViewController.swift */; };
@@ -72,6 +75,9 @@
 		E103CBD320ECA54100B78F2C /* RxAlamofireViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxAlamofireViewController.swift; sourceTree = "<group>"; };
 		E103CBD620ECC2E100B78F2C /* RxAlamofireResultHandleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxAlamofireResultHandleViewController.swift; sourceTree = "<group>"; };
 		E103CBD820ECC6FC00B78F2C /* DataTopModelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataTopModelViewController.swift; sourceTree = "<group>"; };
+		E103CBDA20EDA4A300B78F2C /* RxObjectMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxObjectMapper.swift; sourceTree = "<group>"; };
+		E103CBDD20EDB5D500B78F2C /* FileUploadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileUploadViewController.swift; sourceTree = "<group>"; };
+		E103CBE020EDC75300B78F2C /* FileDownloadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileDownloadViewController.swift; sourceTree = "<group>"; };
 		E108D30B20CE21B50096E47C /* FilterTakeSkipViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterTakeSkipViewController.swift; sourceTree = "<group>"; };
 		E108D30E20CE3E5F0096E47C /* AmbTakeWhileSkipWhileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmbTakeWhileSkipWhileViewController.swift; sourceTree = "<group>"; };
 		E108D31120CE4CA40096E47C /* StartWithMergeZipViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartWithMergeZipViewController.swift; sourceTree = "<group>"; };
@@ -198,8 +204,25 @@
 			children = (
 				E103CBD620ECC2E100B78F2C /* RxAlamofireResultHandleViewController.swift */,
 				E103CBD820ECC6FC00B78F2C /* DataTopModelViewController.swift */,
+				E103CBDA20EDA4A300B78F2C /* RxObjectMapper.swift */,
 			);
 			path = "结合RxAlamofire使用2：结果处理、模型转换";
+			sourceTree = "<group>";
+		};
+		E103CBDC20EDB5C400B78F2C /* 结合RxAlamofire使用3：文件上传 */ = {
+			isa = PBXGroup;
+			children = (
+				E103CBDD20EDB5D500B78F2C /* FileUploadViewController.swift */,
+			);
+			path = "结合RxAlamofire使用3：文件上传";
+			sourceTree = "<group>";
+		};
+		E103CBDF20EDC74300B78F2C /* 结合RxAlamofire使用4：文件下载 */ = {
+			isa = PBXGroup;
+			children = (
+				E103CBE020EDC75300B78F2C /* FileDownloadViewController.swift */,
+			);
+			path = "结合RxAlamofire使用4：文件下载";
 			sourceTree = "<group>";
 		};
 		E108D30A20CE219D0096E47C /* 过滤操作符：filter、take、skip等 */ = {
@@ -432,6 +455,8 @@
 		E138BA3920C8CE1D00879E28 /* GJRxSwift */ = {
 			isa = PBXGroup;
 			children = (
+				E103CBDF20EDC74300B78F2C /* 结合RxAlamofire使用4：文件下载 */,
+				E103CBDC20EDB5C400B78F2C /* 结合RxAlamofire使用3：文件上传 */,
 				E103CBD520ECC2C100B78F2C /* 结合RxAlamofire使用2：结果处理、模型转换 */,
 				E103CBD220ECA52F00B78F2C /* 结合RxAlamofire使用1：数据请求 */,
 				E103CBCF20ECA2CE00B78F2C /* [weaf self] [unowned self] */,
@@ -674,6 +699,7 @@
 				E1153DFA20D9FC3A005CF356 /* SubscribeOnObserveOnViewController.swift in Sources */,
 				E1153DF120D8F901005CF356 /* UIViewController+RxSwift.swift in Sources */,
 				E138BA3D20C8CE1D00879E28 /* ViewController.swift in Sources */,
+				E103CBE120EDC75300B78F2C /* FileDownloadViewController.swift in Sources */,
 				E1153DEA20D8EF99005CF356 /* ControlPropetyControlEventViewController.swift in Sources */,
 				E108D31520CE6EE80096E47C /* ToArrayReduceConcatViewController.swift in Sources */,
 				E1153DFD20DA1825005CF356 /* UILabelViewController.swift in Sources */,
@@ -681,6 +707,7 @@
 				E108D32220D0B4F80096E47C /* ConnectPublishReplayMulticastViewController.swift in Sources */,
 				E1153E2020DCD5E8005CF356 /* TableViewSearchFilterViewController.swift in Sources */,
 				E1153E1D20DCC89B005CF356 /* RefreshTableViewViewController.swift in Sources */,
+				E103CBDB20EDA4A300B78F2C /* RxObjectMapper.swift in Sources */,
 				E1153E1720DB9C87005CF356 /* UITableViewViewController.swift in Sources */,
 				E108D36920D3806D0096E47C /* SingleCompletableMaybeViewController.swift in Sources */,
 				E103CBCC20EC94D000B78F2C /* UIPickerViewViewController.swift in Sources */,
@@ -688,6 +715,7 @@
 				E103CBD720ECC2E100B78F2C /* RxAlamofireResultHandleViewController.swift in Sources */,
 				E1153DED20D8F835005CF356 /* UIViewControllerRxExtendViewController.swift in Sources */,
 				E103CBC420EC70DB00B78F2C /* UICollectionViewViewController.swift in Sources */,
+				E103CBDE20EDB5D500B78F2C /* FileUploadViewController.swift in Sources */,
 				E138BA6020CA44FD00879E28 /* BufferMapFlatMapScanViewController.swift in Sources */,
 				E103CBBE20EC5C6400B78F2C /* DifferentKindCellViewController.swift in Sources */,
 				E1153E1120DB7F0F005CF356 /* UIGestureRecgnizerViewController.swift in Sources */,

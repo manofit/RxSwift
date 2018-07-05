@@ -55,10 +55,14 @@ class ViewController: UIViewController {
             Project(title:"UITableView的使用4：表格数据的搜索过滤"),
             Project(title:"UITableView的使用5：可编辑表格"),
             Project(title:"UITableView的使用6：不同类型的单元格混用"),
+            Project(title:"UITableView的使用7：样式修改"),
             Project(title:"UICollectionView的使用1：基本用法"),
             Project(title:"UIPickerView的使用"),
             Project(title:"[unowned self] 与 [weak self]"),
+            Project(title:"结合RxAlamofire使用1：数据请求"),
             Project(title:"结合RxAlamofire使用2：结果处理、模型转换"),
+            Project(title:"结合RxAlamofire使用3：文件上传"),
+            Project(title:"结合RxAlamofire使用4：文件下载"),
         ])
     }
     
@@ -153,13 +157,21 @@ class ViewController: UIViewController {
             }else if indexPath.row == 32 {
                 self.navigationController?.pushViewController(DifferentKindCellViewController(), animated: true)
             }else if indexPath.row == 33 {
-                self.navigationController?.pushViewController(UICollectionViewViewController(), animated: true)
+                self.navigationController?.pushViewController(ChangeStyleViewController(), animated: true)
             }else if indexPath.row == 34 {
                 self.navigationController?.pushViewController(UICollectionViewViewController(), animated: true)
             }else if indexPath.row == 35 {
-                self.navigationController?.pushViewController(UICollectionViewViewController(), animated: true)
+                self.navigationController?.pushViewController(UIPickerViewViewController(), animated: true)
             }else if indexPath.row == 36 {
-                self.navigationController?.pushViewController(UICollectionViewViewController(), animated: true)
+                self.navigationController?.pushViewController(WeakUnownedSelfViewController(), animated: true)
+            }else if indexPath.row == 37 {
+                self.navigationController?.pushViewController(RxAlamofireViewController(), animated: true)
+            }else if indexPath.row == 38 {
+                self.navigationController?.pushViewController(RxAlamofireResultHandleViewController(), animated: true)
+            }else if indexPath.row == 39 {
+                self.navigationController?.pushViewController(FileUploadViewController(), animated: true)
+            }else if indexPath.row == 40 {
+                self.navigationController?.pushViewController(FileDownloadViewController(), animated: true)
             }
         }).disposed(by: disposeBag)
     }
