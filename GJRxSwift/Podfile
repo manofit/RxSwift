@@ -7,9 +7,12 @@ target 'GJRxSwift' do
     pod 'RxSwift'
     pod 'RxCocoa'
     pod 'RxDataSources', '~> 3.0'
-    pod 'Alamofire', '~> 4.7'
+    pod 'Alamofire'
     pod 'RxAlamofire'
     pod 'ObjectMapper', '~> 3.3'
     pod 'Moya'
+    pod 'Result'
+    pod 'Moya-ObjectMapper'
+    
 
 end

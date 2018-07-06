@@ -21,6 +21,11 @@
 		E103CBDB20EDA4A300B78F2C /* RxObjectMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E103CBDA20EDA4A300B78F2C /* RxObjectMapper.swift */; };
 		E103CBDE20EDB5D500B78F2C /* FileUploadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E103CBDD20EDB5D500B78F2C /* FileUploadViewController.swift */; };
 		E103CBE120EDC75300B78F2C /* FileDownloadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E103CBE020EDC75300B78F2C /* FileDownloadViewController.swift */; };
+		E103CBE720EE19F300B78F2C /* MVVMObservableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E103CBE620EE19F300B78F2C /* MVVMObservableViewController.swift */; };
+		E103CBE920EF062500B78F2C /* GitHubAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = E103CBE820EF062500B78F2C /* GitHubAPI.swift */; };
+		E103CBEB20EF108200B78F2C /* GitHubModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E103CBEA20EF108200B78F2C /* GitHubModel.swift */; };
+		E103CBED20EF12FA00B78F2C /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E103CBEC20EF12FA00B78F2C /* ViewModel.swift */; };
+		E103CBEF20EF3A0800B78F2C /* GitHubNetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E103CBEE20EF3A0800B78F2C /* GitHubNetworkService.swift */; };
 		E108D30C20CE21B50096E47C /* FilterTakeSkipViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E108D30B20CE21B50096E47C /* FilterTakeSkipViewController.swift */; };
 		E108D30F20CE3E5F0096E47C /* AmbTakeWhileSkipWhileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E108D30E20CE3E5F0096E47C /* AmbTakeWhileSkipWhileViewController.swift */; };
 		E108D31220CE4CA40096E47C /* StartWithMergeZipViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E108D31120CE4CA40096E47C /* StartWithMergeZipViewController.swift */; };
@@ -78,6 +83,11 @@
 		E103CBDA20EDA4A300B78F2C /* RxObjectMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxObjectMapper.swift; sourceTree = "<group>"; };
 		E103CBDD20EDB5D500B78F2C /* FileUploadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileUploadViewController.swift; sourceTree = "<group>"; };
 		E103CBE020EDC75300B78F2C /* FileDownloadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileDownloadViewController.swift; sourceTree = "<group>"; };
+		E103CBE620EE19F300B78F2C /* MVVMObservableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMObservableViewController.swift; sourceTree = "<group>"; };
+		E103CBE820EF062500B78F2C /* GitHubAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubAPI.swift; sourceTree = "<group>"; };
+		E103CBEA20EF108200B78F2C /* GitHubModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubModel.swift; sourceTree = "<group>"; };
+		E103CBEC20EF12FA00B78F2C /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		E103CBEE20EF3A0800B78F2C /* GitHubNetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubNetworkService.swift; sourceTree = "<group>"; };
 		E108D30B20CE21B50096E47C /* FilterTakeSkipViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterTakeSkipViewController.swift; sourceTree = "<group>"; };
 		E108D30E20CE3E5F0096E47C /* AmbTakeWhileSkipWhileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmbTakeWhileSkipWhileViewController.swift; sourceTree = "<group>"; };
 		E108D31120CE4CA40096E47C /* StartWithMergeZipViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartWithMergeZipViewController.swift; sourceTree = "<group>"; };
@@ -223,6 +233,18 @@
 				E103CBE020EDC75300B78F2C /* FileDownloadViewController.swift */,
 			);
 			path = "结合RxAlamofire使用4：文件下载";
+			sourceTree = "<group>";
+		};
+		E103CBE520EE19BA00B78F2C /* MVVM架构演示2：使用Observable样例 */ = {
+			isa = PBXGroup;
+			children = (
+				E103CBE620EE19F300B78F2C /* MVVMObservableViewController.swift */,
+				E103CBE820EF062500B78F2C /* GitHubAPI.swift */,
+				E103CBEA20EF108200B78F2C /* GitHubModel.swift */,
+				E103CBEC20EF12FA00B78F2C /* ViewModel.swift */,
+				E103CBEE20EF3A0800B78F2C /* GitHubNetworkService.swift */,
+			);
+			path = "MVVM架构演示2：使用Observable样例";
 			sourceTree = "<group>";
 		};
 		E108D30A20CE219D0096E47C /* 过滤操作符：filter、take、skip等 */ = {
@@ -455,6 +477,7 @@
 		E138BA3920C8CE1D00879E28 /* GJRxSwift */ = {
 			isa = PBXGroup;
 			children = (
+				E103CBE520EE19BA00B78F2C /* MVVM架构演示2：使用Observable样例 */,
 				E103CBDF20EDC74300B78F2C /* 结合RxAlamofire使用4：文件下载 */,
 				E103CBDC20EDB5C400B78F2C /* 结合RxAlamofire使用3：文件上传 */,
 				E103CBD520ECC2C100B78F2C /* 结合RxAlamofire使用2：结果处理、模型转换 */,
@@ -686,15 +709,20 @@
 				E1153E2320DCF1CB005CF356 /* EditableTableViewViewController.swift in Sources */,
 				E103CBCE20EC9E7B00B78F2C /* MultipleRowPickerViewViewController.swift in Sources */,
 				E1153E0620DA4971005CF356 /* UISwitchUISegmentControlViewController.swift in Sources */,
+				E103CBE920EF062500B78F2C /* GitHubAPI.swift in Sources */,
 				E1153E0920DB4509005CF356 /* UISliderUIStepperViewController.swift in Sources */,
 				E1153E0E20DB4661005CF356 /* BindViewController.swift in Sources */,
+				E103CBED20EF12FA00B78F2C /* ViewModel.swift in Sources */,
 				E1153E0020DA2252005CF356 /* UITextFieldUITextViewViewController.swift in Sources */,
 				E1153E1420DB83DC005CF356 /* UIDatePickerViewController.swift in Sources */,
+				E103CBE720EE19F300B78F2C /* MVVMObservableViewController.swift in Sources */,
 				E103CBD420ECA54100B78F2C /* RxAlamofireViewController.swift in Sources */,
 				E108D36C20D39EB60096E47C /* DriverViewController.swift in Sources */,
 				E108D32520D0E29C0096E47C /* DelayMaterializeTimeoutViewController.swift in Sources */,
 				E103CBD920ECC6FC00B78F2C /* DataTopModelViewController.swift in Sources */,
 				E108D31220CE4CA40096E47C /* StartWithMergeZipViewController.swift in Sources */,
+				E103CBEF20EF3A0800B78F2C /* GitHubNetworkService.swift in Sources */,
+				E103CBEB20EF108200B78F2C /* GitHubModel.swift in Sources */,
 				E138BA5D20CA1A2F00879E28 /* SubjectsVariablesViewController.swift in Sources */,
 				E1153E1A20DC86C5005CF356 /* RxDataSourcesViewController.swift in Sources */,
 				E103CBC620EC8CB000B78F2C /* MyCollectionViewCell.swift in Sources */,

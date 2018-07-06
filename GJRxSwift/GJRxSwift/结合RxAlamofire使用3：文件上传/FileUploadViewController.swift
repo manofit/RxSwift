@@ -96,7 +96,7 @@ class FileUploadViewController: UIViewController {
         let file2URL = Bundle.main.url(forResource: "1", withExtension: "png")
         
 //        //服务器路径
-        let uploadURL = URL(string: "http://www.hangge.com/upload2.php")!
+        let uploadURL2 = URL(string: "http://www.hangge.com/upload2.php")!
 
         //将文件上传到服务器
         upload(
@@ -107,7 +107,7 @@ class FileUploadViewController: UIViewController {
                                          fileName: "php.png", mimeType: "image/png")
                 multipartFormData.append(file2URL!, withName: "file2")
         },
-            to: uploadURL,
+            to: uploadURL2,
             encodingCompletion: { encodingResult in
                 switch encodingResult {
                 case .success(let upload, _, _):
