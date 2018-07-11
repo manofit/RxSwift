@@ -81,7 +81,7 @@ class BufferMapFlatMapScanViewController: UIViewController {
         let subject6 = BehaviorSubject(value: "1")
         
         let variable2 = Variable(subject5)
-        variable2.asObservable().flatMap {$0}.subscribe(onNext: {print($0)}).disposed(by: disposeBag)
+        variable2.asObservable().flatMapLatest {$0}.subscribe(onNext: {print($0)}).disposed(by: disposeBag)
         subject5.onNext("B")
         variable2.value = subject6
         subject6.onNext("2")
@@ -94,7 +94,7 @@ class BufferMapFlatMapScanViewController: UIViewController {
         let subject8 = BehaviorSubject(value: "1")
         
         let variable3 = Variable(subject5)
-        variable3.asObservable().flatMap {$0}.subscribe(onNext: {print($0)}).disposed(by: disposeBag)
+        variable3.asObservable().flatMapFirst {$0}.subscribe(onNext: {print($0)}).disposed(by: disposeBag)
         subject7.onNext("B")
         variable3.value = subject8
         subject8.onNext("2")
@@ -107,7 +107,7 @@ class BufferMapFlatMapScanViewController: UIViewController {
         let subject10 = BehaviorSubject(value: "1")
         
         let variable4 = Variable(subject9)
-        variable4.asObservable().flatMap {$0}.subscribe(onNext: {print($0)}).disposed(by: disposeBag)
+        variable4.asObservable().concatMap {$0}.subscribe(onNext: {print($0)}).disposed(by: disposeBag)
         subject9.onNext("B")
         variable4.value = subject10
         subject10.onNext("2")
