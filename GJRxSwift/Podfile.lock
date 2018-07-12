@@ -1,8 +1,14 @@
 PODS:
-  - Alamofire (4.7.2)
+  - Alamofire (4.7.3)
   - Differentiator (3.0.2)
+  - MJRefresh (3.1.15.3)
   - Moya (11.0.2):
     - Moya/Core (= 11.0.2)
+  - Moya-ObjectMapper (2.7):
+    - Moya-ObjectMapper/Core (= 2.7)
+  - Moya-ObjectMapper/Core (2.7):
+    - Moya (~> 11)
+    - ObjectMapper (~> 3.3)
   - Moya/Core (11.0.2):
     - Alamofire (~> 4.1)
     - Result (~> 3.0)
@@ -23,7 +29,9 @@ PODS:
 
 DEPENDENCIES:
   - Alamofire
+  - MJRefresh
   - Moya
+  - Moya-ObjectMapper
   - ObjectMapper (~> 3.3)
   - Result
   - RxAlamofire
@@ -35,7 +43,9 @@ SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
     - Alamofire
     - Differentiator
+    - MJRefresh
     - Moya
+    - Moya-ObjectMapper
     - ObjectMapper
     - Result
     - RxAlamofire
@@ -44,9 +54,11 @@ SPEC REPOS:
     - RxSwift
 
 SPEC CHECKSUMS:
-  Alamofire: e4fa87002c137ba2d8d634d2c51fabcda0d5c223
+  Alamofire: c7287b6e5d7da964a70935e5db17046b7fde6568
   Differentiator: a87be69eba49ec4ab460c7671143ee3a9eececfd
+  MJRefresh: b48380ae2b927b46c4ef000de9adb8dc748e1df7
   Moya: a725035953bc1c0eb1be505ab903984501d82440
+  Moya-ObjectMapper: 441caa307b527331fde59e2577adc632a16f1255
   ObjectMapper: b612bf8c8e99c4dc0bb6013a51f7c27966ed5da9
   Result: d2d07204ce72856f1fd9130bbe42c35a7b0fea10
   RxAlamofire: 87a9c588541210cc3e4a1f843ccc3ecf3eb98b31
@@ -54,6 +66,6 @@ SPEC CHECKSUMS:
   RxDataSources: cb7c31e652a87ebb919da45f716bbb87b3765f6b
   RxSwift: 99e10317ddfcc7fbe01356aafd118fde4a0be104
 
-PODFILE CHECKSUM: 64818e4b8a8988200c9ca9bddf1c976f1d9f4e7b
+PODFILE CHECKSUM: a6ecf7dcbe20feccb576fd64ca71ee75e55b921a
 
 COCOAPODS: 1.5.0

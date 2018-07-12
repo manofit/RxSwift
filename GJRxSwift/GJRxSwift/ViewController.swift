@@ -65,6 +65,7 @@ class ViewController: UIViewController {
             Project(title:"结合RxAlamofire使用4：文件下载"),
             Project(title:"MVVM架构演示2：使用Observable样例"),
             Project(title:"一个用户注册样例1：基本功能实现"),
+            Project(title:"结合MJRefresh使用1：下拉刷新"),
         ])
     }
     
@@ -178,6 +179,8 @@ class ViewController: UIViewController {
                 self.navigationController?.pushViewController(MVVMObservableViewController(), animated: true)
             }else if indexPath.row == 42 {
                 self.navigationController?.pushViewController(MVVMDriverRegisterViewController(), animated: true)
+            }else if indexPath.row == 43 {
+                self.navigationController?.pushViewController(MJHeaderRefreshViewController(), animated: true)
             }
         }).disposed(by: disposeBag)
     }

@@ -64,12 +64,16 @@
 		E138BA5820C922ED00879E28 /* CustomBindablePropertyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E138BA5720C922ED00879E28 /* CustomBindablePropertyViewController.swift */; };
 		E138BA5D20CA1A2F00879E28 /* SubjectsVariablesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E138BA5C20CA1A2F00879E28 /* SubjectsVariablesViewController.swift */; };
 		E138BA6020CA44FD00879E28 /* BufferMapFlatMapScanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E138BA5F20CA44FD00879E28 /* BufferMapFlatMapScanViewController.swift */; };
+		E16473CD20F75590000D820B /* MJRefreshViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16473CC20F7558F000D820B /* MJRefreshViewModel.swift */; };
 		E1DBC3A520F5C87C0061F12F /* MVVMDriverRegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1DBC3A420F5C87C0061F12F /* MVVMDriverRegisterViewController.swift */; };
 		E1DBC3A720F5CB720061F12F /* UserRegisterNetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1DBC3A620F5CB720061F12F /* UserRegisterNetworkService.swift */; };
 		E1DBC3A920F5D0720061F12F /* ValidationResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1DBC3A820F5D0720061F12F /* ValidationResult.swift */; };
 		E1DBC3AB20F5D2400061F12F /* UserRegisterService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1DBC3AA20F5D2400061F12F /* UserRegisterService.swift */; };
 		E1DBC3AD20F5D6660061F12F /* UserRegitserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1DBC3AC20F5D6660061F12F /* UserRegitserViewModel.swift */; };
 		E1DBC3AF20F5E2F30061F12F /* BindingExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1DBC3AE20F5E2F30061F12F /* BindingExtensions.swift */; };
+		E1DBC3B220F6E0460061F12F /* MJHeaderRefreshViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1DBC3B120F6E0460061F12F /* MJHeaderRefreshViewController.swift */; };
+		E1DBC3B420F6E2990061F12F /* MJRefresh+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1DBC3B320F6E2990061F12F /* MJRefresh+Rx.swift */; };
+		E1DBC3B620F6E4410061F12F /* MJRefreshNetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1DBC3B520F6E4410061F12F /* MJRefreshNetworkService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -134,12 +138,16 @@
 		E138BA5720C922ED00879E28 /* CustomBindablePropertyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomBindablePropertyViewController.swift; sourceTree = "<group>"; };
 		E138BA5C20CA1A2F00879E28 /* SubjectsVariablesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubjectsVariablesViewController.swift; sourceTree = "<group>"; };
 		E138BA5F20CA44FD00879E28 /* BufferMapFlatMapScanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BufferMapFlatMapScanViewController.swift; sourceTree = "<group>"; };
+		E16473CC20F7558F000D820B /* MJRefreshViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MJRefreshViewModel.swift; sourceTree = "<group>"; };
 		E1DBC3A420F5C87C0061F12F /* MVVMDriverRegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMDriverRegisterViewController.swift; sourceTree = "<group>"; };
 		E1DBC3A620F5CB720061F12F /* UserRegisterNetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRegisterNetworkService.swift; sourceTree = "<group>"; };
 		E1DBC3A820F5D0720061F12F /* ValidationResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidationResult.swift; sourceTree = "<group>"; };
 		E1DBC3AA20F5D2400061F12F /* UserRegisterService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRegisterService.swift; sourceTree = "<group>"; };
 		E1DBC3AC20F5D6660061F12F /* UserRegitserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRegitserViewModel.swift; sourceTree = "<group>"; };
 		E1DBC3AE20F5E2F30061F12F /* BindingExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingExtensions.swift; sourceTree = "<group>"; };
+		E1DBC3B120F6E0460061F12F /* MJHeaderRefreshViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MJHeaderRefreshViewController.swift; sourceTree = "<group>"; };
+		E1DBC3B320F6E2990061F12F /* MJRefresh+Rx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MJRefresh+Rx.swift"; sourceTree = "<group>"; };
+		E1DBC3B520F6E4410061F12F /* MJRefreshNetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MJRefreshNetworkService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -489,6 +497,7 @@
 		E138BA3920C8CE1D00879E28 /* GJRxSwift */ = {
 			isa = PBXGroup;
 			children = (
+				E1DBC3B020F6E02D0061F12F /* 结合MJRefresh使用1：下拉刷新 */,
 				E1DBC3A320F5C81B0061F12F /* 一个用户注册样例1：基本功能实现 */,
 				E103CBE520EE19BA00B78F2C /* MVVM架构演示2：使用Observable样例 */,
 				E103CBDF20EDC74300B78F2C /* 结合RxAlamofire使用4：文件下载 */,
@@ -603,6 +612,17 @@
 			path = "一个用户注册样例1：基本功能实现";
 			sourceTree = "<group>";
 		};
+		E1DBC3B020F6E02D0061F12F /* 结合MJRefresh使用1：下拉刷新 */ = {
+			isa = PBXGroup;
+			children = (
+				E1DBC3B120F6E0460061F12F /* MJHeaderRefreshViewController.swift */,
+				E1DBC3B320F6E2990061F12F /* MJRefresh+Rx.swift */,
+				E1DBC3B520F6E4410061F12F /* MJRefreshNetworkService.swift */,
+				E16473CC20F7558F000D820B /* MJRefreshViewModel.swift */,
+			);
+			path = "结合MJRefresh使用1：下拉刷新";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -700,7 +720,9 @@
 				"${SRCROOT}/Pods/Target Support Files/Pods-GJRxSwift/Pods-GJRxSwift-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/Differentiator/Differentiator.framework",
+				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
 				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
+				"${BUILT_PRODUCTS_DIR}/Moya-ObjectMapper/Moya_ObjectMapper.framework",
 				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
 				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
 				"${BUILT_PRODUCTS_DIR}/RxAlamofire/RxAlamofire.framework",
@@ -712,7 +734,9 @@
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Differentiator.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya_ObjectMapper.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxAlamofire.framework",
@@ -733,6 +757,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E1153E2320DCF1CB005CF356 /* EditableTableViewViewController.swift in Sources */,
+				E1DBC3B420F6E2990061F12F /* MJRefresh+Rx.swift in Sources */,
 				E103CBCE20EC9E7B00B78F2C /* MultipleRowPickerViewViewController.swift in Sources */,
 				E1153E0620DA4971005CF356 /* UISwitchUISegmentControlViewController.swift in Sources */,
 				E103CBE920EF062500B78F2C /* GitHubAPI.swift in Sources */,
@@ -764,6 +789,7 @@
 				E1153DFD20DA1825005CF356 /* UILabelViewController.swift in Sources */,
 				E138BA5520C900BB00879E28 /* AnyObserverBinderViewController.swift in Sources */,
 				E108D32220D0B4F80096E47C /* ConnectPublishReplayMulticastViewController.swift in Sources */,
+				E1DBC3B220F6E0460061F12F /* MJHeaderRefreshViewController.swift in Sources */,
 				E1153E2020DCD5E8005CF356 /* TableViewSearchFilterViewController.swift in Sources */,
 				E1153E1D20DCC89B005CF356 /* RefreshTableViewViewController.swift in Sources */,
 				E103CBDB20EDA4A300B78F2C /* RxObjectMapper.swift in Sources */,
@@ -777,8 +803,10 @@
 				E103CBC420EC70DB00B78F2C /* UICollectionViewViewController.swift in Sources */,
 				E103CBDE20EDB5D500B78F2C /* FileUploadViewController.swift in Sources */,
 				E138BA6020CA44FD00879E28 /* BufferMapFlatMapScanViewController.swift in Sources */,
+				E1DBC3B620F6E4410061F12F /* MJRefreshNetworkService.swift in Sources */,
 				E1DBC3A520F5C87C0061F12F /* MVVMDriverRegisterViewController.swift in Sources */,
 				E1DBC3AD20F5D6660061F12F /* UserRegitserViewModel.swift in Sources */,
+				E16473CD20F75590000D820B /* MJRefreshViewModel.swift in Sources */,
 				E103CBBE20EC5C6400B78F2C /* DifferentKindCellViewController.swift in Sources */,
 				E1153E1120DB7F0F005CF356 /* UIGestureRecgnizerViewController.swift in Sources */,
 				E1DBC3AB20F5D2400061F12F /* UserRegisterService.swift in Sources */,

@@ -13,6 +13,7 @@ target 'GJRxSwift' do
     pod 'Moya'
     pod 'Result'
     pod 'Moya-ObjectMapper'
+    pod 'MJRefresh'
     
 
 end
