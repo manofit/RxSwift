@@ -67,6 +67,8 @@ class ViewController: UIViewController {
             Project(title:"一个用户注册样例1：基本功能实现"),
             Project(title:"结合MJRefresh使用1：下拉刷新"),
             Project(title:"下拉刷新，上拉记载更多"),
+            Project(title:"订阅UITableViewCell里的按钮点击事件"),
+            Project(title:"通知NotificationCenter的使用"),
         ])
     }
     
@@ -184,6 +186,10 @@ class ViewController: UIViewController {
                 self.navigationController?.pushViewController(MJHeaderRefreshViewController(), animated: true)
             }else if indexPath.row == 44 {
                 self.navigationController?.pushViewController(MJRefreshHeaderAndFooterViewController(), animated: true)
+            }else if indexPath.row == 45 {
+                self.navigationController?.pushViewController(MJRefreshHeaderAndFooterViewController(), animated: true)
+            }else if indexPath.row == 46 {
+                self.navigationController?.pushViewController(NotificationCenterViewController(), animated: true)
             }
         }).disposed(by: disposeBag)
     }
