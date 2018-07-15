@@ -65,6 +65,9 @@
 		E138BA5D20CA1A2F00879E28 /* SubjectsVariablesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E138BA5C20CA1A2F00879E28 /* SubjectsVariablesViewController.swift */; };
 		E138BA6020CA44FD00879E28 /* BufferMapFlatMapScanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E138BA5F20CA44FD00879E28 /* BufferMapFlatMapScanViewController.swift */; };
 		E16473CD20F75590000D820B /* MJRefreshViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16473CC20F7558F000D820B /* MJRefreshViewModel.swift */; };
+		E1A7CF0E20FAF44700EEBB17 /* MJRefreshHeaderAndFooterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A7CF0D20FAF44700EEBB17 /* MJRefreshHeaderAndFooterViewController.swift */; };
+		E1A7CF1020FAF4A400EEBB17 /* MJRefreshHeaderAndFooterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A7CF0F20FAF4A400EEBB17 /* MJRefreshHeaderAndFooterViewModel.swift */; };
+		E1A7CF1220FAF50900EEBB17 /* MJRefreshHeaderAndFooterNetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A7CF1120FAF50900EEBB17 /* MJRefreshHeaderAndFooterNetworkService.swift */; };
 		E1DBC3A520F5C87C0061F12F /* MVVMDriverRegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1DBC3A420F5C87C0061F12F /* MVVMDriverRegisterViewController.swift */; };
 		E1DBC3A720F5CB720061F12F /* UserRegisterNetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1DBC3A620F5CB720061F12F /* UserRegisterNetworkService.swift */; };
 		E1DBC3A920F5D0720061F12F /* ValidationResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1DBC3A820F5D0720061F12F /* ValidationResult.swift */; };
@@ -139,6 +142,9 @@
 		E138BA5C20CA1A2F00879E28 /* SubjectsVariablesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubjectsVariablesViewController.swift; sourceTree = "<group>"; };
 		E138BA5F20CA44FD00879E28 /* BufferMapFlatMapScanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BufferMapFlatMapScanViewController.swift; sourceTree = "<group>"; };
 		E16473CC20F7558F000D820B /* MJRefreshViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MJRefreshViewModel.swift; sourceTree = "<group>"; };
+		E1A7CF0D20FAF44700EEBB17 /* MJRefreshHeaderAndFooterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MJRefreshHeaderAndFooterViewController.swift; sourceTree = "<group>"; };
+		E1A7CF0F20FAF4A400EEBB17 /* MJRefreshHeaderAndFooterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MJRefreshHeaderAndFooterViewModel.swift; sourceTree = "<group>"; };
+		E1A7CF1120FAF50900EEBB17 /* MJRefreshHeaderAndFooterNetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MJRefreshHeaderAndFooterNetworkService.swift; sourceTree = "<group>"; };
 		E1DBC3A420F5C87C0061F12F /* MVVMDriverRegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMDriverRegisterViewController.swift; sourceTree = "<group>"; };
 		E1DBC3A620F5CB720061F12F /* UserRegisterNetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRegisterNetworkService.swift; sourceTree = "<group>"; };
 		E1DBC3A820F5D0720061F12F /* ValidationResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidationResult.swift; sourceTree = "<group>"; };
@@ -497,6 +503,7 @@
 		E138BA3920C8CE1D00879E28 /* GJRxSwift */ = {
 			isa = PBXGroup;
 			children = (
+				E1A7CF0C20FAF42700EEBB17 /* 下拉刷新，上拉记载更多 */,
 				E1DBC3B020F6E02D0061F12F /* 结合MJRefresh使用1：下拉刷新 */,
 				E1DBC3A320F5C81B0061F12F /* 一个用户注册样例1：基本功能实现 */,
 				E103CBE520EE19BA00B78F2C /* MVVM架构演示2：使用Observable样例 */,
@@ -597,6 +604,16 @@
 				E138BA5F20CA44FD00879E28 /* BufferMapFlatMapScanViewController.swift */,
 			);
 			path = "变换操作符：buffer、map、flatMap、scan等";
+			sourceTree = "<group>";
+		};
+		E1A7CF0C20FAF42700EEBB17 /* 下拉刷新，上拉记载更多 */ = {
+			isa = PBXGroup;
+			children = (
+				E1A7CF0D20FAF44700EEBB17 /* MJRefreshHeaderAndFooterViewController.swift */,
+				E1A7CF0F20FAF4A400EEBB17 /* MJRefreshHeaderAndFooterViewModel.swift */,
+				E1A7CF1120FAF50900EEBB17 /* MJRefreshHeaderAndFooterNetworkService.swift */,
+			);
+			path = "下拉刷新，上拉记载更多";
 			sourceTree = "<group>";
 		};
 		E1DBC3A320F5C81B0061F12F /* 一个用户注册样例1：基本功能实现 */ = {
@@ -778,6 +795,7 @@
 				E138BA5D20CA1A2F00879E28 /* SubjectsVariablesViewController.swift in Sources */,
 				E1153E1A20DC86C5005CF356 /* RxDataSourcesViewController.swift in Sources */,
 				E103CBC620EC8CB000B78F2C /* MyCollectionViewCell.swift in Sources */,
+				E1A7CF1020FAF4A400EEBB17 /* MJRefreshHeaderAndFooterViewModel.swift in Sources */,
 				E108D32B20D1109C0096E47C /* DebuggingViewController.swift in Sources */,
 				E108D32820D0F80E0096E47C /* ErrorHandlerViewController.swift in Sources */,
 				E1153DFA20D9FC3A005CF356 /* SubscribeOnObserveOnViewController.swift in Sources */,
@@ -790,6 +808,7 @@
 				E138BA5520C900BB00879E28 /* AnyObserverBinderViewController.swift in Sources */,
 				E108D32220D0B4F80096E47C /* ConnectPublishReplayMulticastViewController.swift in Sources */,
 				E1DBC3B220F6E0460061F12F /* MJHeaderRefreshViewController.swift in Sources */,
+				E1A7CF1220FAF50900EEBB17 /* MJRefreshHeaderAndFooterNetworkService.swift in Sources */,
 				E1153E2020DCD5E8005CF356 /* TableViewSearchFilterViewController.swift in Sources */,
 				E1153E1D20DCC89B005CF356 /* RefreshTableViewViewController.swift in Sources */,
 				E103CBDB20EDA4A300B78F2C /* RxObjectMapper.swift in Sources */,
@@ -811,6 +830,7 @@
 				E1153E1120DB7F0F005CF356 /* UIGestureRecgnizerViewController.swift in Sources */,
 				E1DBC3AB20F5D2400061F12F /* UserRegisterService.swift in Sources */,
 				E1153E0320DA342C005CF356 /* UIButtonUIBarButtonItemViewController.swift in Sources */,
+				E1A7CF0E20FAF44700EEBB17 /* MJRefreshHeaderAndFooterViewController.swift in Sources */,
 				E1DBC3AF20F5E2F30061F12F /* BindingExtensions.swift in Sources */,
 				E108D30F20CE3E5F0096E47C /* AmbTakeWhileSkipWhileViewController.swift in Sources */,
 				E138BA5220C8F99100879E28 /* ObservableSubscribeDoonDisposeViewController.swift in Sources */,

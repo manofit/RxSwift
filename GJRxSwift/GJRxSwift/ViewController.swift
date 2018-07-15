@@ -66,6 +66,7 @@ class ViewController: UIViewController {
             Project(title:"MVVM架构演示2：使用Observable样例"),
             Project(title:"一个用户注册样例1：基本功能实现"),
             Project(title:"结合MJRefresh使用1：下拉刷新"),
+            Project(title:"下拉刷新，上拉记载更多"),
         ])
     }
     
@@ -181,6 +182,8 @@ class ViewController: UIViewController {
                 self.navigationController?.pushViewController(MVVMDriverRegisterViewController(), animated: true)
             }else if indexPath.row == 43 {
                 self.navigationController?.pushViewController(MJHeaderRefreshViewController(), animated: true)
+            }else if indexPath.row == 44 {
+                self.navigationController?.pushViewController(MJRefreshHeaderAndFooterViewController(), animated: true)
             }
         }).disposed(by: disposeBag)
     }
